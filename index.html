@@ -1,0 +1,247 @@
+<!-- Made by Penguin -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        :not[class="preview"] * {
+            transition-duration: 500ms;
+        }
+
+        html {
+            margin-top: 72px;
+            --L1: #DAC263;
+            -webkit-text-size-adjust: none;
+        }
+
+        .nav_tip {
+            padding: 20px;
+            text-align: center;
+            font: 16px/1 "Source Han Sans", sans-serif;
+            background: #e07821;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .nav_block {
+            width: 698px;
+            height: 166px;
+            border: 1px solid #00000040;
+            margin: 0 auto;
+        }
+
+        [data-city="CAN"][data-line="1"] .block {
+            height: 129px;
+        }
+
+        [data-city="CAN"][data-line="1"] .line {
+            background-color: var(--L1);
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            font: 14px/1 "Source Han Sans", sans-serif;
+            background: #28a745;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .block {
+            padding: 15px 15px 0 15px;
+        }
+
+        .block > * {
+            display: inline-block;
+            height: auto;
+            vertical-align: middle;
+        }
+
+        .block .left, .block .right {
+            width: 28%;
+        }
+
+        .block .middle {
+            width: 42.6%
+        }
+
+        .line {
+            height: 37px;
+            width: 100%;
+        }
+
+        #chn_next {
+            font: 400 16px/2 sans-serif;
+        }
+
+        #eng_next {
+            font: 400 14px/1.5 sans-serif;
+        }
+
+        #chn_title {
+            font: 400 40px/1.5 sans-serif;
+        }
+
+        #eng_title {
+            font: 300 24px/1 sans-serif;
+        }
+
+        .middle {
+            text-align: center;
+        }
+
+        .left span {
+            position: relative;
+            top: -40px;
+            left: 190px;
+        }
+
+        .left .title {
+            position: relative;
+            top: 20px;
+        }
+
+        .right .station_num {
+            line-height: 25px;
+            border: 2px solid var(--L1);
+            width: 50px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        .station_num span:first-child {
+            border-right: 2px solid var(--L1);
+        }
+
+        .station_num span {
+            width: 50%;
+            display: inline-block;
+        }
+
+        .station_num, .platform {
+            display: inline-block;
+        }
+
+        table td:first-child {
+            width: 40px;
+        }
+
+        .platform {
+            background: var(--L1);
+            padding: 5px;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 1;
+            font-weight: 400;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        .platform > span {
+            display: block;
+            font-size: 12px;
+        }
+
+        .platform > span:first-child {
+            font-size: 26px;
+            line-height: 0.9;
+            font-weight: 500;
+            transform: scale(0.8);
+        }
+
+        .platform > span:nth-child(2) {
+            font-size: 10px;
+            -webkit-transform: scale(0.84, 0.84);
+        }
+
+        button[onclick="createIMG()"] {
+            width: 96px;
+            height: 48px;
+            font: 500 16px/1 sans-serif;
+            text-align: center;
+            padding: 5px;
+            border: 2px solid var(--L1);
+            border-radius: 15px;
+            color: #000;
+            display: block;
+            margin: 10px auto;
+        }
+
+        button[onclick="createIMG()"]:hover,
+        button[onclick="createIMG()"]:focus {
+            background: var(--L1);
+            opacity:0.8;
+            color: #000;
+            outline:none;
+        }
+    </style>
+</head>
+<body>
+<div class="nav_tip">Metro Navigation Generator 地下铁导航栏生成</div>
+<div class="preview">
+    <div class="nav_block" data-city="CAN" data-line="1" id="capture">
+        <div class="block">
+            <div class="left">
+                <div class="title">
+                    <table>
+                        <tbody>
+                        <tr id="chn_next">
+                            <td>下站</td>
+                            <td style="margin-left: 5px;">体育中心</td>
+                        </tr>
+                        <tr id="eng_next">
+                            <td>Next</td>
+                            <td>Tianhe Sports Center</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="32.3" height="32.3"><style>.st0 {
+                    fill: #fff;
+                    stroke: #000;
+                    stroke-width: 4;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 10
+                }</style><path class="st0" d="M16.2 2L2 16.2h28.3M16.2 30.3L2 16.2"/></svg></span>
+            </div>
+            <div class="middle">
+                <div id="chn_title">体育西路</div>
+                <div id="eng_title">Tiyu Xilu</div>
+            </div>
+            <div class="right">
+                <div class="station_num"><span>1</span><span>14</span></div>
+                <div class="platform"><span>1</span><span>站台<br>Platform</span></div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+</div>
+<button onclick="createIMG()">生成图片</button>
+<div class="footer"># COPYRIGHT BY PENGUIN AND OTHER CONTRIBUTORS. OPEN SOURCE AT GITHUB #</div>
+</body>
+<script src="http_html2canvas.hertzen.com_dist_html2canvas.js"></script>
+<script src="http_github.com_randreucetti_canvas2image_blob_master_canvas2image.js"></script>
+<script>
+    var img = document.createElement('img');
+    let createIMG = function () {
+        html2canvas(document.querySelector("#capture")).then(canvas => {
+            img.src = canvas.toDataURL("image/jpeg");
+            img.style = "width:700px;height:168px;margin:20px auto;display:block;";
+            document.body.innerHTML += "<hr><p style='text-align:center;margin:20px;font:600 20px/2 sans-serif'> 生成的图片 </p>";
+            document.body.appendChild(img);
+        });
+    }
+</script>
+</html>

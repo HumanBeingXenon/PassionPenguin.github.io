@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>%20</find>
+      <find>\\frac{</find>
+      <find>本金</find>
+      <find>frac</find>
+      <find>十字</find>
+      <find>&lt;div&gt;</find>
+      <find>sqrt</find>
+      <find>二次根式的性质</find>
+      <find>五、</find>
+      <find>一、</find>
+      <find>二</find>
+      <find>二、</find>
+      <find>&lt;img src='</find>
+      <find>三、</find>
+      <find>k1</find>
+      <find>b1</find>
+      <find>x1</find>
+      <find>x2</find>
+      <find>ax&lt;sub&gt;2&lt;/sub&gt;</find>
+      <find>&lt;img</find>
+      <find>x&lt;sub&gt;1</find>
+      <find>inner</find>
+      <find>margin: 0</find>
+      <find>sub</find>
+      <find>.col-6</find>
+      <find>.col-</find>
+      <find>h4</find>
+      <find>与</find>
+      <find>不知道</find>
+      <find>%</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>col-8</replace>
+      <replace>600</replace>
+      <replace>&lt;/h5&gt;</replace>
+      <replace>&quot;</replace>
+      <replace>&lt;/p&gt;&lt;p&gt;</replace>
+      <replace>&lt;/div&gt;</replace>
+      <replace>&lt;/p&gt;</replace>
+      <replace>b&lt;sub&gt;1&lt;/sub&gt;</replace>
+      <replace>x&lt;sub&gt;2&lt;/sub&gt;</replace>
+      <replace>ax&lt;sup&gt;2&lt;/sup&gt;</replace>
+      <replace>y&lt;sub&gt;1&lt;/sub&gt;</replace>
+      <replace>},{</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/IClock.html" />
+        <option value="$PROJECT_DIR$/index.html.en" />
+        <option value="$PROJECT_DIR$/Portal/tmplg.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Baidu_iKnow_arguer.js" />
+        <option value="$PROJECT_DIR$/Portal/portal.php" />
+        <option value="$PROJECT_DIR$/Mua/___data/nav.js" />
+        <option value="$PROJECT_DIR$/Mua/buy.html" />
+        <option value="$PROJECT_DIR$/Mua/about.html" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat_-_统计与概率.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat_-_空间与图形.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat_-_图形的认识.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat_-_圆.js" />
+        <option value="$PROJECT_DIR$/Mua/MathSymbols.html" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat_-_方程组与不等式组.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat_-_数与代数.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Mat_-_变量与函数.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Chi_-_文言文.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Chi_-_积累与运用.js" />
+        <option value="$PROJECT_DIR$/Mua/___data/Chi_-_成语熟语释义.js" />
+        <option value="$PROJECT_DIR$/Mua/index.html" />
+        <option value="$PROJECT_DIR$/Mua/___data/Chi_-_古诗.js" />
+        <option value="$PROJECT_DIR$/zh_cn/0001/1.html" />
+        <option value="$PROJECT_DIR$/zh_cn/000101.html" />
+        <option value="$PROJECT_DIR$/http_html2canvas.hertzen.com_dist_html2canvas.js" />
+        <option value="$PROJECT_DIR$/http_github.com_randreucetti_canvas2image_blob_master_canvas2image.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="zh_cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="canvas2image" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="html2canvas" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/zh_cn" />
+      <recent name="$PROJECT_DIR$/Mua/___data" />
+      <recent name="$PROJECT_DIR$/Mua" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="" />
+      <created>1558255403961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558255403961</updated>
+      <workItem from="1558255408898" duration="116000" />
+      <workItem from="1558255552622" duration="1247000" />
+      <workItem from="1558349979649" duration="795000" />
+      <workItem from="1563288671338" duration="799000" />
+      <workItem from="1565356253575" duration="3876000" />
+      <workItem from="1565409939687" duration="1530000" />
+      <workItem from="1565441930673" duration="1085000" />
+      <workItem from="1565444514847" duration="57000" />
+      <workItem from="1565492726549" duration="466000" />
+      <workItem from="1567082134253" duration="9990000" />
+      <workItem from="1567171341927" duration="221000" />
+      <workItem from="1567239172624" duration="3035000" />
+      <workItem from="1567257055117" duration="1619000" />
+      <workItem from="1568204435101" duration="4063000" />
+      <workItem from="1568281047670" duration="15552000" />
+      <workItem from="1568298302261" duration="7450000" />
+      <workItem from="1568344937444" duration="1195000" />
+      <workItem from="1568378959653" duration="1639000" />
+      <workItem from="1568383212452" duration="651000" />
+      <workItem from="1568422302569" duration="3427000" />
+      <workItem from="1568432067693" duration="1303000" />
+      <workItem from="1569073117499" duration="1794000" />
+      <workItem from="1569075809737" duration="494000" />
+      <workItem from="1569241281918" duration="13281000" />
+      <workItem from="1569411346209" duration="609000" />
+      <workItem from="1569416988295" duration="3701000" />
+      <workItem from="1569500245125" duration="2457000" />
+      <workItem from="1569894317927" duration="1644000" />
+      <workItem from="1569997942100" duration="8000" />
+      <workItem from="1569997969054" duration="891000" />
+      <workItem from="1570288446818" duration="3673000" />
+      <workItem from="1570324435865" duration="5274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93942000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13622664" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html.en~orig" />
+    <entry file="file://$PROJECT_DIR$/PoweredByMacOSX.gif" />
+    <entry file="file://$PROJECT_DIR$/PoweredByMacOSXLarge.gif" />
+    <entry file="file://$PROJECT_DIR$/highlight.pack.js" />
+    <entry file="file://$PROJECT_DIR$/aod.css" />
+    <entry file="file://$PROJECT_DIR$/index.html.en" />
+    <entry file="file://$PROJECT_DIR$/IClock.html" />
+    <entry file="file://$PROJECT_DIR$/Portal/tmplg.html" />
+    <entry file="file://$PROJECT_DIR$/Portal/portal.php" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/Baidu_iKnow_arguer.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/buy.html" />
+    <entry file="file://$PROJECT_DIR$/Mua/about.html" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_统计与概率.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_图形的认识.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_空间与图形.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_数与代数.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_变量与函数.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_方程组与不等式组.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mua/index.html" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/nav.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_圆.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Chi_-_积累与运用.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Chi_-_成语熟语释义.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Chi_-_古诗.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/___data/Chi_-_文言文.js" />
+    <entry file="file://$PROJECT_DIR$/Mua/MathSymbols.html" />
+    <entry file="file://$PROJECT_DIR$/zh_cn/0001/1.html" />
+    <entry file="file://$PROJECT_DIR$/zh_cn/000103.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh_cn/000104.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh_cn/000105.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh_cn/000106.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_html2canvas.hertzen.com_dist_html2canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="236830" selection-start-column="236830" selection-end-column="236830" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_github.com_randreucetti_canvas2image_blob_master_canvas2image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4221" selection-start-column="4221" selection-end-column="4221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh_cn/000102.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh_cn/000101.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#348#352#0" expanded="true" />
+            <element signature="e#357#361#0" expanded="true" />
+            <element signature="e#362#366#0" expanded="true" />
+            <element signature="e#368#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
