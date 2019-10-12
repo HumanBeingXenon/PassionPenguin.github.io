@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/railstation.nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/东山口站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/体育西路站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/公园前站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/坑口站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/广州东站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/杨箕站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/烈士陵园站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/花地湾站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/芳村站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/西塱站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/陈家祠站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subway/station/黄沙站.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nav.index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subway/station/坑口站.html" beforeDir="false" afterPath="$PROJECT_DIR$/Subway/station/坑口站.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subway/station/花地湾站.html" beforeDir="false" afterPath="$PROJECT_DIR$/Subway/station/花地湾站.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subway/station/芳村站.html" beforeDir="false" afterPath="$PROJECT_DIR$/Subway/station/芳村站.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subway/station/西塱站.html" beforeDir="false" afterPath="$PROJECT_DIR$/Subway/station/西塱站.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/.import.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/.import.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Subway/station/西塱站.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="826" column="37" lean-forward="true" selection-start-line="818" selection-start-column="37" selection-end-line="826" selection-end-column="37" />
+            <state relative-caret-position="333">
+              <caret line="92" column="49" lean-forward="true" selection-start-line="91" selection-start-column="73" selection-end-line="92" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#tbody#0;n#table#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#tbody#0;n#table#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Subway/station/坑口站.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="416" column="41" selection-start-line="416" selection-start-column="41" selection-end-line="416" selection-end-column="41" />
+            <state relative-caret-position="358">
+              <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
               <folding>
                 <element signature="e#18994#19011#1" expanded="true" />
               </folding>
@@ -89,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Subway/station/花地湾站.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+            <state relative-caret-position="149">
+              <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
               <folding>
                 <element signature="e#20225#20242#1" expanded="true" />
                 <element signature="e#20608#20624#1" expanded="true" />
@@ -102,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Subway/station/芳村站.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+            <state relative-caret-position="197">
+              <caret line="194" column="122" selection-start-line="194" selection-start-column="122" selection-end-line="194" selection-end-column="122" />
               <folding>
                 <element signature="e#20226#20243#1" expanded="true" />
                 <element signature="e#20608#20624#1" expanded="true" />
@@ -118,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/.import.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="644">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -164,9 +152,9 @@
       <find>96</find>
       <find>高峰</find>
       <find>26</find>
-      <find>44</find>
       <find>487</find>
       <find>103</find>
+      <find>44</find>
     </findStrings>
     <replaceStrings>
       <replace>col-8</replace>
@@ -233,11 +221,11 @@
         <option value="$PROJECT_DIR$/Subway/station/烈士陵园站.html" />
         <option value="$PROJECT_DIR$/Subway/station/railstation.nav.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/.import.css" />
         <option value="$PROJECT_DIR$/Subway/station/西塱站.html" />
-        <option value="$PROJECT_DIR$/Subway/station/坑口站.html" />
-        <option value="$PROJECT_DIR$/Subway/station/芳村站.html" />
         <option value="$PROJECT_DIR$/Subway/station/花地湾站.html" />
+        <option value="$PROJECT_DIR$/Subway/station/坑口站.html" />
+        <option value="$PROJECT_DIR$/assets/css/.import.css" />
+        <option value="$PROJECT_DIR$/Subway/station/芳村站.html" />
       </list>
     </option>
   </component>
@@ -336,12 +324,12 @@
       <workItem from="1570710442184" duration="30000" />
       <workItem from="1570710512448" duration="375000" />
       <workItem from="1570717820309" duration="4905000" />
-      <workItem from="1570880249118" duration="1088000" />
+      <workItem from="1570880249118" duration="2213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135251000" />
+    <option name="totallyTimeSpent" value="136376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -538,27 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/.import.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subway/station/坑口站.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="416" column="41" selection-start-line="416" selection-start-column="41" selection-end-line="416" selection-end-column="41" />
-          <folding>
-            <element signature="e#18994#19011#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Subway/station/西塱站.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="826" column="37" lean-forward="true" selection-start-line="818" selection-start-column="37" selection-end-line="826" selection-end-column="37" />
+        <state relative-caret-position="333">
+          <caret line="92" column="49" lean-forward="true" selection-start-line="91" selection-start-column="73" selection-end-line="92" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#tbody#0;n#table#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#tbody#0;n#table#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -568,23 +539,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Subway/station/芳村站.html">
+    <entry file="file://$PROJECT_DIR$/Subway/station/花地湾站.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        <state relative-caret-position="149">
+          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
           <folding>
-            <element signature="e#20226#20243#1" expanded="true" />
+            <element signature="e#20225#20242#1" expanded="true" />
             <element signature="e#20608#20624#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Subway/station/花地湾站.html">
+    <entry file="file://$PROJECT_DIR$/Subway/station/坑口站.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        <state relative-caret-position="358">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
           <folding>
-            <element signature="e#20225#20242#1" expanded="true" />
+            <element signature="e#18994#19011#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/.import.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subway/station/芳村站.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="194" column="122" selection-start-line="194" selection-start-column="122" selection-end-line="194" selection-end-column="122" />
+          <folding>
+            <element signature="e#20226#20243#1" expanded="true" />
             <element signature="e#20608#20624#1" expanded="true" />
           </folding>
         </state>

@@ -26,6 +26,7 @@ html, body {
     --GZL20: rgb(231, 167, 201);
     --GZL21: rgb(31, 30, 68);
     --GZL22: rgb(17, 33, 67);
+    --GZLUN: rgb(50, 50, 50);
     --GFL: rgb(180, 197, 48);
     font: 400 15px/2 "Source Han Sans", "Helvetica", sans-serif;
 }
@@ -73,7 +74,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 [colspan], [rowspan] {
     vertical-align: middle;
-    text-align:center;
+    text-align: center;
 }
 
 .container-fluid {
