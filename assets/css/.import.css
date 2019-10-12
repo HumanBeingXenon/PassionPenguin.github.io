@@ -141,6 +141,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .icon-Line11-GZ {
     background: var(--GZL11);
+    color: #fff;
 }
 
 .icon-Line12-GZ {
@@ -186,6 +187,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .icon-Line22-GZ {
     background: var(--GZL22);
+    color: #fff;
+}
+
+.icon-LineUN-GZ {
+    background: var(--GZLUN);
     color: #fff;
 }
 
