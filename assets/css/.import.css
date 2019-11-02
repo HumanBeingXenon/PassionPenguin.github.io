@@ -28,6 +28,8 @@ html, body {
     --GZL22: rgb(17, 33, 67);
     --GZLUN: rgb(50, 50, 50);
     --GFL: rgb(180, 197, 48);
+    --GZAPM: #00B2E3;
+    --GZTHZ1: #8bbc50;
     font: 400 15px/2 "Source Han Sans", "Helvetica", sans-serif;
 }
 
@@ -87,6 +89,83 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 18px;
     vertical-align: text-bottom;
     margin: 0 10px 0 0;
+}
+
+.font-Line1-GZ{
+    color:var(--GZL1);
+}
+.font-Line2-GZ{
+    color:var(--GZL2);
+}
+.font-Line3-GZ{
+    color:var(--GZL3);
+}
+.font-Line4-GZ{
+    color:var(--GZL4);
+}
+.font-Line5-GZ{
+    color:var(--GZL5);
+}
+.font-Line6-GZ{
+    color:var(--GZL6);
+}
+.font-Line7-GZ{
+    color:var(--GZL7);
+}
+.font-Line8-GZ{
+    color:var(--GZL8);
+}
+.font-Line9-GZ{
+    color:var(--GZL9);
+}
+.font-Line10-GZ{
+    color:var(--GZL10);
+}
+.font-Line11-GZ{
+    color:var(--GZL11);
+}
+.font-Line12-GZ{
+    color:var(--GZL12);
+}
+.font-Line13-GZ{
+    color:var(--GZL13);
+}
+.font-Line14-GZ{
+    color:var(--GZL14);
+}
+.font-Line15-GZ{
+    color:var(--GZL15);
+}
+.font-Line16-GZ{
+    color:var(--GZL16);
+}
+.font-Line17-GZ{
+    color:var(--GZL17);
+}
+.font-Line18-GZ{
+    color:var(--GZL18);
+}
+.font-Line19-GZ{
+    color:var(--GZL19);
+}
+.font-Line20-GZ{
+    color:var(--GZL20);
+}
+.font-Line21-GZ{
+    color:var(--GZL21);
+}
+.font-Line22-GZ{
+    color:var(--GZL22);
+}
+.font-LineAPM-GZ{
+    color: var(--GZAPM);
+}
+
+.font-THZ1-GZ{
+    color:var(--GZTHZ1);
+}
+.font-Line-GF{
+    color: var(--GFL);
 }
 
 .icon-Line1-GZ {
@@ -188,6 +267,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .icon-Line22-GZ {
     background: var(--GZL22);
     color: #fff;
+}
+
+.icon-LineAPM-GZ{
+    background: var(--GZAPM);
+}
+
+.icon-THZ1-GZ{
+    background: var(--GZTHZ1);
 }
 
 .icon-LineUN-GZ {
