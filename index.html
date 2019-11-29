@@ -41,7 +41,7 @@
             height: 40px;
         }
 
-        .card-icon {
+        .hrs-card-icon {
             position: absolute;
             left: 25%;
             transform: translate(-50%);
@@ -50,7 +50,16 @@
             height: 250px;
         }
 
-        .card-icon img {
+        .debit-card-icon {
+            position: absolute;
+            left: 75%;
+            transform: translate(-50%);
+            top: 150px;
+            max-width: 400px;
+            height: 250px;
+        }
+
+        .hrs-card-icon img, .debit-card-icon img {
             width: 400px;
             height: 250px;
         }
@@ -164,45 +173,45 @@
             height: 100%;
             background: #999;
         }
-
-        [current="welcome"] .buycard {
+        [current="welcome"] .buycard,[current="welcome"] .topup{
             display: block;
             position: absolute;
-            left: 25%;
             top: 0;
             transform: translate(-50%);
             width: 50%;
             height: 100%;
             background: #efefef;
             z-index: -1;
+            color: #666;
         }
+        [current="welcome"] .buycard {
+            left: 25%;
+        }
+
         [current="welcome"] .topup {
-            display: block;
-            position: absolute;
             left: 75%;
-            top: 0;
-            transform: translate(-50%);
-            width: 50%;
-            height: 100%;
-            background: #efefef;
-            z-index: -1;
         }
 
         [current="welcome"] .buycard p, [current="welcome"] .topup p {
             font: 900 24px/1.5 sans-serif;
-            color: #666;
             top: 75%;
             transform: translateY(-50%);
             position: absolute;
             text-align: center;
             width: 100%;
         }
+        [current="welcome"] .buycard:hover,[current="welcome"] .buycard:focus, [current="welcome"] .topup:hover,[current="welcome"] .topup:focus{
+            background:#ddd;
+            transition: .3s ease-in-out;
+            color:#444;
+        }
     </style>
 </head>
 <body language="chs" current="welcome">
 <div class="wrap">
     <div class="brand"><img src="/assets/Images/GuangzhouMTR.png" alt=""></div>
-    <div class="card-icon"><img src="/assets/Images/travelcard.png" alt=""></div>
+    <div class="hrs-card-icon"><img src="/assets/Images/24hrsCard.png" alt=""></div>
+    <div class="debit-card-icon"><img src="/assets/Images/debitCard.png" alt=""></div>
     <div class="language_selector">
         <div id="chs" class="language-active">简体</div>
         <div id="cht">繁体</div>
