@@ -1,49 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Documents.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Documents.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="changes">
+      <change afterPath="$PROJECT_DIR$/assets/styles/pk2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/24hrsCard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/GZMTR_Line1_InScale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/GlacierElement.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/GuangzhouMTR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/arrow-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/debitCard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/.import.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/PenguinUI.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/PenguinUI.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Mua/___data/Mat_-_数与代数.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/railstation.nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/东山口站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/体育西路站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/公园前站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/坑口站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/广州东站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/杨箕站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/烈士陵园站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/花地湾站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/芳村站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/西塱站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/陈家祠站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/Subway/station/黄沙站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/history.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/http_github.com_randreucetti_canvas2image_blob_master_canvas2image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/http_html2canvas.hertzen.com_dist_html2canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/index.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/nav.index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/zh_cn/000101.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/zh_cn/000102.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/zh_cn/000103.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/zh_cn/000104.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/zh_cn/000105.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unused/zh_cn/000106.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,20 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="276">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="487">
+              <caret line="718" column="13" selection-start-line="718" selection-start-column="13" selection-end-line="718" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/styles/pk2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="2022" column="1" lean-forward="true" selection-start-line="1963" selection-start-column="1" selection-end-line="2022" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -87,10 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>--L1</find>
-      <find>L1_</find>
-      <find>squig</find>
-      <find>70</find>
       <find>夜44</find>
       <find>966</find>
       <find>19</find>
@@ -117,6 +85,10 @@
       <find>Cyan</find>
       <find>--var</find>
       <find>var(</find>
+      <find>btn-lg</find>
+      <find>border</find>
+      <find>-border</find>
+      <find>.h1</find>
     </findStrings>
     <replaceStrings>
       <replace>col-8</replace>
@@ -150,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Baidu_iKnow_arguer.js" />
         <option value="$PROJECT_DIR$/Portal/portal.php" />
         <option value="$PROJECT_DIR$/Mua/___data/nav.js" />
         <option value="$PROJECT_DIR$/Mua/buy.html" />
@@ -199,8 +170,9 @@
         <option value="$PROJECT_DIR$/Inserted.html" />
         <option value="$PROJECT_DIR$/assets/styles/boot.css" />
         <option value="$PROJECT_DIR$/assets/index.cpp" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/styles/pk2.css" />
         <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -227,6 +199,12 @@
               <item name="Documents" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,7 +217,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -334,7 +312,7 @@
       <workItem from="1575071059428" duration="1473000" />
       <workItem from="1575109779749" duration="8008000" />
       <workItem from="1575160112943" duration="479000" />
-      <workItem from="1575625599793" duration="3757000" />
+      <workItem from="1575625599793" duration="9766000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files">
       <created>1575632718122</created>
@@ -343,20 +321,27 @@
       <option name="project" value="LOCAL" />
       <updated>1575632718122</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1575634421643</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575634421644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178245000" />
+    <option name="totallyTimeSpent" value="184254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18324292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18324292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" visible="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" visible="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -381,10 +366,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Files" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mua/___data/nav.js" />
     <entry file="file://$PROJECT_DIR$/Mua/___data/Mat_-_圆.js" />
     <entry file="file://$PROJECT_DIR$/Mua/___data/Chi_-_积累与运用.js" />
     <entry file="file://$PROJECT_DIR$/Mua/___data/Chi_-_成语熟语释义.js" />
@@ -489,17 +474,24 @@
     <entry file="file://$PROJECT_DIR$/assets/index.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/styles/pk2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        <state relative-caret-position="425">
+          <caret line="2022" column="1" lean-forward="true" selection-start-line="1963" selection-start-column="1" selection-end-line="2022" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="487">
+          <caret line="718" column="13" selection-start-line="718" selection-start-column="13" selection-end-line="718" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
