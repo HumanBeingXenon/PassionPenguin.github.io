@@ -7,12 +7,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/" rel="stylesheet">
+    <link href="/assets/styles/PenguinUI.css" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
 <script>
-    document.body.innerHTML+="div"
+    let names = ["Yellow","Orange","Red","Pink","Purple","Blue","Green"];
+    for(let i=0;i<7;i++)
+    for(let j=0;j<7;j++)
+        document.body.innerHTML+="<div class='div-block bg-"+names[i]+"-"+j+"'></div><div class='div-block border-"+names[i]+"-"+j+"'></div><p class='div-block color-"+names[i]+"-"+j+"'>"+names[i]+""+j+"</p>";
 </script>
 </body>
 </html>
