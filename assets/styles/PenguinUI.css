@@ -2,8 +2,18 @@
 /* Made by Penguin
     Penguin UI stable version, updated Dec 7th
 */
+
+* {
+    transition: .5s ease-in-out;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
 html, body {
-    margin: 0;
+    margin: 100px 0 0 0;
     /* Colors Themes */
     --Yellow0: rgb(255, 225, 94);
     --Yellow1: rgb(255, 217, 74);
@@ -658,48 +668,48 @@ p {
 /* Typography */
 
 
-.brand,.h1,.h2,.h3,.h4,.h5,.h6,.navbar,.td-name,a,button,h1,h2,h3,h4,h5,h6,input,p,select,td,textarea {
+.brand, .h1, .h2, .h3, .h4, .h5, .h6, .navbar, .td-name, a, button, h1, h2, h3, h4, h5, h6, input, p, select, td, textarea {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-weight: 300
 }
 
-.h1,.h2,.h3,.h4,h1,h2,h3,h4 {
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
     margin: 30px 0 0
 }
 
-.h1,h1 {
+.h1, h1 {
     font-size: 3.6em
 }
 
-.h2,h2 {
+.h2, h2 {
     font-size: 2.8em
 }
 
-.h3,h3 {
+.h3, h3 {
     font-size: 1.825em;
     line-height: 1.4;
     margin: 20px 0 0
 }
 
-.h4,h4 {
+.h4, h4 {
     font-size: 1.6em;
     line-height: 1.2em
 }
 
-.h5,h5 {
+.h5, h5 {
     font-size: 1.35em;
     line-height: 1.4em
 }
 
-.h6,h6 {
+.h6, h6 {
     font-size: .9em;
     font-weight: 600;
     text-transform: uppercase
 }
 
-.h6,h6,p {
+.h6, h6, p {
     line-height: 1.5em
 }
 
@@ -708,14 +718,15 @@ p {
     margin-bottom: 5px
 }
 
-.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small {
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
     color: #9a9a9a;
     line-height: 1.5em
 }
 
-h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small {
+h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
     font-size: 60%
 }
+
 /* Buttons */
 
 .btn {
@@ -883,7 +894,7 @@ h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small {
     background-color: transparent;
 }
 
-.btn-link,.btn-link:hover,.btn-link:focus {
+.btn-link, .btn-link:hover, .btn-link:focus {
     border-color: transparent;
     background-color: transparent;
 }
@@ -891,4 +902,214 @@ h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small {
 .btn:hover, .btn:focus {
     color: #fff;
     outline: none;
+}
+
+.badge {
+    color: #fff;
+    padding: 5px 12px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1;
+    vertical-align: text-bottom;
+}
+
+.badge-Yellow {
+    background-color: var(--Yellow3);
+}
+
+.badge-Orange {
+    background-color: var(--Orange2);
+}
+
+.badge-Red {
+    background-color: var(--Red2);
+}
+
+.badge-Pink {
+    background-color: var(--Pink2);
+}
+
+.badge-Purple {
+    background-color: var(--Purple2);
+}
+
+.badge-Blue {
+    background-color: var(--Blue2);
+}
+
+.badge-Green {
+    background-color: var(--Green3);
+}
+
+/* Main */
+.nav-heading {
+    padding: 20px 0 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background:#fff;
+    height:150px;
+}
+
+.nav-heading ul, .nav-heading ul li {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-heading > ul > li:first-child {
+    width: 75%;
+    margin: 0 auto;
+    font: 700 36px/2 sans-serif;
+    height: 60px;
+}
+
+.nav-heading > ul > li > ul > li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+.nav-heading > ul {
+    border-bottom: 1px solid #ddd;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav-heading.onscroll>ul{
+    border-bottom:0;
+}
+.image-bg {
+    width: inherit;
+    height: 410px;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    filter: blur(1px);
+    background-position: 0 12.5%;
+    cursor: pointer;
+}
+
+.image-bg:hover, .image-bg:focus {
+    filter: blur(5px);
+}
+
+.image-bg-wrap:hover p, .image-bg-wrap:focus p {
+    background: #00000080;
+    padding: 5px 10px 5px 30px;
+    bottom: 25px;
+    height: 40px;
+    font: 600 16px/2 sans-serif;
+}
+
+.image-bg-wrap p {
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    background: #00000050;
+    padding: 5px 10px 5px 30px;
+    font: 500 16px/2 sans-serif;
+}
+
+.image-bg-secondary .image-bg {
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.image-bg-secondary .image-bg-wrap:first-child p {
+    top: 20px;
+    bottom: unset;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h1 {
+    font: 400 24px/2 Montserrat, Helvetica, Arial, sans-serif;
+}
+
+section .border-after {
+    border-bottom: 2px solid var(--Green2);
+    width: 60px;
+    height: 2px;
+    margin-bottom:20px;
+}
+
+.card[data-background=image] {
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, .15);
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    border: 0 none;
+    transition: transform .3s cubic-bezier(.34, 2, .6, 1), box-shadow .2s ease;
+}
+
+.card[data-background=image] .card-body {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card[data-background=image] .card-title {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.card .card-body .card-title {
+    margin: 5px 0 0;
+    font-weight: 400;
+}
+
+.card[data-background=color] .card-description, .card[data-background=image] .card-description, .card[data-color] .card-description {
+    color: hsla(0, 0%, 100%, .8);
+}
+
+.card .card-description {
+    color: #9a9a9a;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.card .card-body .card-description + .card-footer, .card .more {
+    padding-top: 10px;
+}
+
+.card.card:not(.card-plain) .card-image .img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-footer {
+    font: 500 10px/1 Montserrat, Helvetica, Arial, sans-serif;
+    color:#aaa;
 }
