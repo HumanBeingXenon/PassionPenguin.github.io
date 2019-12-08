@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_东山口.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_体育西路.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_公园前.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_杨箕.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_烈士陵园.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_芳村.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_西塱.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_陈家祠.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_黄沙.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/PenguinUI.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/PenguinUI.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="141">
               <caret line="113" column="107" selection-start-line="113" selection-start-column="107" selection-end-line="113" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="388">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -194,7 +183,6 @@
         <option value="$PROJECT_DIR$/assets/index.cpp" />
         <option value="$PROJECT_DIR$/assets/styles/pk2.css" />
         <option value="$PROJECT_DIR$/assets/Data/Stations.data.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/Scripts/index.js" />
         <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_公园前.html" />
@@ -208,6 +196,7 @@
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_东山口.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_杨箕.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -228,6 +217,32 @@
             <path>
               <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
               <item name="Documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
+              <item name="Metro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
+              <item name="Metro" type="462c0819:PsiDirectoryNode" />
+              <item name="Guangzhou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
+              <item name="Metro" type="462c0819:PsiDirectoryNode" />
+              <item name="Guangzhou" type="462c0819:PsiDirectoryNode" />
+              <item name="Routemap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +377,7 @@
       <workItem from="1575071059428" duration="1473000" />
       <workItem from="1575109779749" duration="8008000" />
       <workItem from="1575160112943" duration="479000" />
-      <workItem from="1575625599793" duration="34703000" />
+      <workItem from="1575625599793" duration="35048000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files">
       <created>1575632718122</created>
@@ -403,7 +418,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209191000" />
+    <option name="totallyTimeSpent" value="209536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -541,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/Stations.data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -648,8 +656,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="141">
           <caret line="113" column="107" selection-start-line="113" selection-start-column="107" selection-end-line="113" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
