@@ -228,7 +228,7 @@ html, body {
     color: var(--GZTHZ1);
 }
 
-.font-LineGF {
+.font-LineGF- {
     color: var(--GFL);
 }
 
@@ -346,7 +346,7 @@ html, body {
     color: #fff;
 }
 
-.icon-LineGF {
+.icon-LineGF- {
     background: var(--GFL);
 }
 
