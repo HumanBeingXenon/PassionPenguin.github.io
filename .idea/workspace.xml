@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="217" column="142" selection-start-line="217" selection-start-column="142" selection-end-line="217" selection-end-column="142" />
+            <state relative-caret-position="257">
+              <caret line="282" column="29" selection-start-line="282" selection-start-column="29" selection-end-line="282" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -377,7 +378,7 @@
       <workItem from="1575071059428" duration="1473000" />
       <workItem from="1575109779749" duration="8008000" />
       <workItem from="1575160112943" duration="479000" />
-      <workItem from="1575625599793" duration="36037000" />
+      <workItem from="1575625599793" duration="36367000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files">
       <created>1575632718122</created>
@@ -418,7 +419,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210525000" />
+    <option name="totallyTimeSpent" value="210855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -663,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="217" column="142" selection-start-line="217" selection-start-column="142" selection-end-line="217" selection-end-column="142" />
+        <state relative-caret-position="257">
+          <caret line="282" column="29" selection-start-line="282" selection-start-column="29" selection-end-line="282" selection-end-column="29" />
         </state>
       </provider>
     </entry>
