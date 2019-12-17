@@ -1456,3 +1456,11 @@ th {
     text-align: center;
     letter-spacing: 1px;
 }
+
+.wrap-center {
+    margin: 0 auto;
+}
+
+.StationTracksmap, .StationTracksmap * {
+    width: 100%;
+}
