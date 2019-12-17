@@ -1332,7 +1332,7 @@ section h2:after {
     border-bottom: 2px solid var(--Green2);
     width: 60px;
     height: 2px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
 }
 
 section h3 {
