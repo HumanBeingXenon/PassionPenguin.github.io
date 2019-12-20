@@ -9,10 +9,10 @@
     <title>Title</title>
 </head>
 <body>
-<textarea id="abc" id="" cols="30" rows="10"></textarea>
+<textarea id="abc" cols="30" rows="10"></textarea>
 <button id="a"></button>
-</body>
+</body><script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
 <script>document.getElementById('a').onclick = function () {
-    document.getElementById('abc').value = "<p>" + document.getElementById('abc').value.replaceAll("\n\n", "</p><p>") + "</p>"
+    document.getElementById('abc').value = "<p>" + document.getElementById('abc').value.replace(/\n\n/g, "</p><p>") + "</p>"
 }</script>
 </html>
