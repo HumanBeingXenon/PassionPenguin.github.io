@@ -1332,7 +1332,7 @@ section h2:after {
     border-bottom: 2px solid var(--Green2);
     width: 60px;
     height: 2px;
-    margin: 0 auto 20px auto;
+    margin: 0 0 20px 0;
 }
 
 section h3 {
@@ -1470,4 +1470,12 @@ th {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.MapLayer {
+    margin: 0 auto;
+    width: 75%;
+    max-width: 750px;
+    height: 50vh;
+    display: block;
 }

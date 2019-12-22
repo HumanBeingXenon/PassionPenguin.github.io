@@ -2,10 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_棠东.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.ai" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/21号线单线站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村未来楼层.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村未来楼层.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村楼层.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村楼层.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/大观南路未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/大观南路站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河智慧城未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河智慧城站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/棠东未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/水西未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/神舟路未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/神舟路站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/科学城未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/科学城站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/苏元未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/苏元站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/西塱楼层.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/西塱楼层.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/西塱站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/西塱站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/金坑未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/金坑站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/长平未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/长平站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/黄村未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/黄村站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/PenguinUI.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/PenguinUI.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +50,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="561">
+              <caret line="100" column="30" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="1334" column="15" selection-start-line="1334" selection-start-column="15" selection-end-line="1334" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -40,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>44</find>
       <find>217</find>
       <find>552</find>
       <find>556</find>
@@ -70,6 +110,7 @@
       <find>站</find>
       <find>体育中心站</find>
       <find>l</find>
+      <find>[</find>
     </findStrings>
     <replaceStrings>
       <replace>col-8</replace>
@@ -155,11 +196,11 @@
         <option value="$PROJECT_DIR$/Articles/Metro/Example.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html" />
         <option value="$PROJECT_DIR$/cut.html" />
-        <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_员村.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_西塱.html" />
-        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_棠东.html" />
+        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" />
+        <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
       </list>
     </option>
   </component>
@@ -245,6 +286,12 @@
               <item name="Documents" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,6 +412,7 @@
       <workItem from="1576842897144" duration="309000" />
       <workItem from="1576847843728" duration="1475000" />
       <workItem from="1576899136869" duration="397000" />
+      <workItem from="1576978294652" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files">
       <created>1575632718122</created>
@@ -405,7 +453,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227590000" />
+    <option name="totallyTimeSpent" value="229637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -701,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="1471" column="19" selection-start-line="1471" selection-start-column="19" selection-end-line="1471" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_棠东.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -717,8 +758,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="561">
+          <caret line="100" column="30" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="1334" column="15" selection-start-line="1334" selection-start-column="15" selection-end-line="1334" selection-end-column="15" />
         </state>
       </provider>
     </entry>
