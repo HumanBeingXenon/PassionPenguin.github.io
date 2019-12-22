@@ -17,9 +17,17 @@ window.onload = function () {
         let i = document.documentElement.scrollTop;
         i > 150 ? getId("navbar").classList.add("onscroll") : getId("navbar").classList.contains("onscroll") ? getId("navbar").classList.remove("onscroll") : void (0);
     };
+    getId("ChangeFloor").onclick = function () {
+        let fm = getId("FloorMap");
+        this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("楼层.png", "未来楼层.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来楼层.png", "楼层.png")), this.innerText = "未来");
+    };
+    getId("ChangeTracks").onclick = function () {
+        let fm = getId("TracksMap");
+        this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("站线.png", "未来站线.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来站线.png", "站线.png")), this.innerText = "未来");
+    };
 };
 
-function WikiGetContent(LineNum){ // Working on fixing this.
+function WikiGetContent(LineNum) { // Working on fixing this.
     let wrap = getId('StationsList');
     let table = doc.createElement('table');
     let thead = doc.createElement('thead');
