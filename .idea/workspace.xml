@@ -2,7 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/styles/PenguinUI.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/PenguinUI.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_水西.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_金坑.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_长平.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/大观南路未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/大观南路站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.ai" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.ai" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河智慧城未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河智慧城站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/棠东未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/水西未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/神舟路未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/神舟路站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/科学城未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/科学城站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/员村未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/员村站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/大观南路未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/大观南路站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河公园未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河公园站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河智慧城未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河智慧城站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/棠东未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/棠东站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/水西未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/水西站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/神舟路未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/神舟路站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/科学城未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/科学城站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/苏元未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/苏元站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/西塱站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/金坑未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/金坑站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/长平未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/长平站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/黄村未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/黄村站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/苏元未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/苏元站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/西塱站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/金坑未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/金坑站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/长平未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/长平站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/黄村未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/黄村站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Scripts/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="55" column="124" selection-start-line="55" selection-start-column="124" selection-end-line="55" selection-end-column="124" />
+            <state relative-caret-position="1491">
+              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -27,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/Scripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="21" column="241" selection-start-line="21" selection-start-column="241" selection-end-line="21" selection-end-column="241" />
+            <state relative-caret-position="-41">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -39,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_员村.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+            <state relative-caret-position="400">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
                 <element signature="e#1382#1398#0" expanded="true" />
               </folding>
@@ -48,10 +104,37 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_金坑.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_长平.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_水西.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="31122">
               <caret line="1482" column="17" selection-start-line="1482" selection-start-column="17" selection-end-line="1482" selection-end-column="17" />
             </state>
           </provider>
@@ -139,9 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/css/material-kit.min.css" />
-        <option value="$PROJECT_DIR$/nav.index.html" />
-        <option value="$PROJECT_DIR$/assets/Images/GlacierElement.svg" />
         <option value="$PROJECT_DIR$/Subway/station/公园前站.html" />
         <option value="$PROJECT_DIR$/Subway/station/体育西路站.html" />
         <option value="$PROJECT_DIR$/Subway/station/广州东站.html" />
@@ -187,9 +267,12 @@
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_西塱.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_棠东.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_员村.html" />
-        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" />
-        <option value="$PROJECT_DIR$/assets/Scripts/index.js" />
         <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
+        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" />
+        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_金坑.html" />
+        <option value="$PROJECT_DIR$/assets/Scripts/index.js" />
+        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_长平.html" />
+        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_水西.html" />
       </list>
     </option>
   </component>
@@ -401,7 +484,9 @@
       <workItem from="1576842897144" duration="309000" />
       <workItem from="1576847843728" duration="1475000" />
       <workItem from="1576899136869" duration="397000" />
-      <workItem from="1576978294652" duration="3855000" />
+      <workItem from="1576978294652" duration="5793000" />
+      <workItem from="1577182031534" duration="5343000" />
+      <workItem from="1577190857737" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files">
       <created>1575632718122</created>
@@ -442,7 +527,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231445000" />
+    <option name="totallyTimeSpent" value="241999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -482,21 +567,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5chars.ent">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="696" column="10" selection-start-line="696" selection-start-column="10" selection-end-line="696" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nav.index.html" />
     <entry file="file://$PROJECT_DIR$/Subway/station/railstation.nav.html" />
     <entry file="file://$PROJECT_DIR$/Subway/station/西塱站.html" />
     <entry file="file://$PROJECT_DIR$/Subway/station/坑口站.html" />
@@ -727,35 +797,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="55" column="124" selection-start-line="55" selection-start-column="124" selection-end-line="55" selection-end-column="124" />
+        <state relative-caret-position="1491">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31122">
+          <caret line="1482" column="17" selection-start-line="1482" selection-start-column="17" selection-end-line="1482" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_员村.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        <state relative-caret-position="400">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="e#1382#1398#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_金坑.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" column="241" selection-start-line="21" selection-start-column="241" selection-end-line="21" selection-end-column="241" />
+        <state relative-caret-position="-41">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
+    <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_长平.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="1482" column="17" selection-start-line="1482" selection-start-column="17" selection-end-line="1482" selection-end-column="17" />
+        <state relative-caret-position="227">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_水西.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
         </state>
       </provider>
     </entry>

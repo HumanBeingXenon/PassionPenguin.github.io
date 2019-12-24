@@ -19,11 +19,59 @@ window.onload = function () {
     };
     getId("ChangeFloor").onclick = function () {
         let fm = getId("FloorMap");
-        this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("楼层.png", "未来楼层.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来楼层.png", "楼层.png")), this.innerText = "未来");
+        if (fm.getAttribute("data-range") !== null) {
+            let r = Number(fm.getAttribute("data-range"));
+            let rn = this.innerText !== "目前" ? this.innerText === "未来" ? 1 : Number(this.innerText[this.innerText.length - 1]) : 0;
+            let data;
+            switch (rn) {
+                case 0:
+                    data = "未来";
+                    fm.setAttribute("src", fm.getAttribute("src").replace(/未来楼层[\s\S]/, "楼层"));
+                    break;
+                case 1:
+                    data = "未来2";
+                    fm.setAttribute("src", fm.getAttribute("src").replace("楼层", "未来楼层1"));
+                    break;
+                case r - 1:
+                    data = "目前";
+                    fm.setAttribute("src", fm.getAttribute("src").replace(/未来楼层[\s\S]/, "未来楼层" + rn));
+                    break;
+                default:
+                    data = "未来" + (rn + 1);
+                    fm.setAttribute("src", fm.getAttribute("src").replace(/未来楼层[\s\S]/, "未来楼层" + rn));
+                    break;
+            }
+            this.innerText = data;
+        } else
+            this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("楼层.png", "未来楼层.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来楼层.png", "楼层.png")), this.innerText = "未来");
     };
     getId("ChangeTracks").onclick = function () {
         let fm = getId("TracksMap");
-        this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("站线.png", "未来站线.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来站线.png", "站线.png")), this.innerText = "未来");
+        if (fm.getAttribute("data-range") !== null) {
+            let r = Number(fm.getAttribute("data-range"));
+            let rn = this.innerText !== "目前" ? this.innerText === "未来" ? 1 : Number(this.innerText[this.innerText.length - 1]) : 0;
+            let data;
+            switch (rn) {
+                case 0:
+                    data = "未来";
+                    fm.setAttribute("src", fm.getAttribute("src").replace(/未来站线[\s\S]/, "站线"));
+                    break;
+                case 1:
+                    data = "未来2";
+                    fm.setAttribute("src", fm.getAttribute("src").replace("站线", "未来站线1"));
+                    break;
+                case r - 1:
+                    data = "目前";
+                    fm.setAttribute("src", fm.getAttribute("src").replace(/未来站线[\s\S]/, "未来站线" + rn));
+                    break;
+                default:
+                    data = "未来" + (rn + 1);
+                    fm.setAttribute("src", fm.getAttribute("src").replace(/未来站线[\s\S]/, "未来站线" + rn));
+                    break;
+            }
+            this.innerText = data;
+        } else
+            this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("站线.png", "未来站线.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来站线.png", "站线.png")), this.innerText = "未来");
     };
 };
 
