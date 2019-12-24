@@ -2,63 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_水西.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_金坑.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_长平.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_天河公园.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/员村站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/大观南路未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/大观南路站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.ai" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来楼层.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.ai" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园楼层.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河公园站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河智慧城未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/天河智慧城站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/棠东未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/水西未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/神舟路未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/神舟路站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/科学城未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/科学城站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/员村未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/员村站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/大观南路未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/大观南路站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河公园未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河公园站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河智慧城未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/天河智慧城站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/棠东未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/棠东站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/水西未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/水西站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/神舟路未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/神舟路站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/科学城未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/科学城站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/苏元未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/苏元站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/西塱站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/金坑未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/金坑站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/长平未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/长平站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/黄村未来站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/站线/黄村站线.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/苏元未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/苏元站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/西塱站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/金坑未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/金坑站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/长平未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/长平站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/黄村未来站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/黄村站线.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/Tracks/水西未来站线.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/Tracks/水西未来站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/棠东楼层.ai" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/棠东楼层.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/棠东站线.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Stations/水西站线.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -117,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_长平.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
-              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -125,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_水西.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+            <state relative-caret-position="241">
+              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -486,7 +434,7 @@
       <workItem from="1576899136869" duration="397000" />
       <workItem from="1576978294652" duration="5793000" />
       <workItem from="1577182031534" duration="5343000" />
-      <workItem from="1577190857737" duration="3273000" />
+      <workItem from="1577190857737" duration="3949000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files">
       <created>1575632718122</created>
@@ -527,7 +475,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241999000" />
+    <option name="totallyTimeSpent" value="242675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -839,14 +787,14 @@
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_长平.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_水西.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        <state relative-caret-position="241">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
         </state>
       </provider>
     </entry>
