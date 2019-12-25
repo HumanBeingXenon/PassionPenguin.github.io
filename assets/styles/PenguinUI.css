@@ -4,7 +4,7 @@
 */
 
 * {
-    transition: .5s ease-in-out!important;
+    transition: .5s ease-in-out !important;
 }
 
 img {
@@ -348,6 +348,98 @@ html, body {
 
 .icon-LineGF- {
     background: var(--GFL);
+}
+
+.border-Line1-GZ {
+    border-color: var(--GZL1);
+}
+
+.border-Line2-GZ {
+    border-color: var(--GZL2);
+}
+
+.border-Line3-GZ {
+    border-color: var(--GZL3);
+}
+
+.border-Line4-GZ {
+    border-color: var(--GZL4);
+}
+
+.border-Line5-GZ {
+    border-color: var(--GZL5);
+}
+
+.border-Line6-GZ {
+    border-color: var(--GZL6);
+}
+
+.border-Line7-GZ {
+    border-color: var(--GZL7);
+}
+
+.border-Line8-GZ {
+    border-color: var(--GZL8);
+}
+
+.border-Line9-GZ {
+    border-color: var(--GZL9);
+}
+
+.border-Line10-GZ {
+    border-color: var(--GZL10);
+}
+
+.border-Line11-GZ {
+    border-color: var(--GZL11);
+}
+
+.border-Line12-GZ {
+    border-color: var(--GZL12);
+}
+
+.border-Line13-GZ {
+    border-color: var(--GZL13);
+}
+
+.border-Line14-GZ {
+    border-color: var(--GZL14);
+}
+
+.border-Line15-GZ {
+    border-color: var(--GZL15);
+}
+
+.border-Line16-GZ {
+    border-color: var(--GZL16);
+}
+
+.border-Line17-GZ {
+    border-color: var(--GZL17);
+}
+
+.border-Line18-GZ {
+    border-color: var(--GZL18);
+}
+
+.border-Line19-GZ {
+    border-color: var(--GZL19);
+}
+
+.border-Line20-GZ {
+    border-color: var(--GZL20);
+}
+
+.border-Line21-GZ {
+    border-color: var(--GZL21);
+}
+
+.border-Line22-GZ {
+    border-color: var(--GZL22);
+}
+
+.border-Line-GF {
+    border-color: var(--GFL);
 }
 
 .icon-LineType:before {
@@ -1193,6 +1285,7 @@ h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
 .btn:hover, .btn:focus {
     color: #fff;
     outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, .1);
 }
 
 .badge {
@@ -1503,4 +1596,82 @@ th {
 .StationTracksmap:hover #ChangeTracks, .StationTracksmap:focus #ChangeTracks, .StationFloorPlan:hover #ChangeFloor, .StationFloorPlan:focus #ChangeFloor {
     display: block;
     opacity: 1;
+}
+
+.droplist .dropdown-toggle {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    background: #f1eae080;
+    border: 0;
+    margin: 0 auto;
+    color: #1c222f;
+    border-radius: 5px 5px 0 0;
+    box-shadow: none !important;
+}
+
+.droplist .dropdown-toggle:after {
+    border: 0;
+}
+
+#wikiinf {
+    width: 100%;
+    max-width: 600px;
+    display: none;
+    background: #f1eae080;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.mapwrap {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+#wikiinf > div > div:first-child {
+    width: 20%;
+    text-align: right;
+}
+
+#wikiinf > div > div:nth-child(2) {
+    width: 70%;
+    margin-left: 5%;
+}
+
+#wikiinf > div > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.StationNumber {
+    display: inline-block;
+    margin: 5px 10px;
+    height: 24px;
+    min-width: 52px;
+    text-align: center;
+    font: 500 15px/20px Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.StationNumber span:first-child, .StationNumber span:nth-child(2) {
+    width: min-content;
+    height: 24px;
+    margin: 1px 0;
+    border: 2px solid;
+    border-color: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.StationNumber span:first-child {
+    border-radius: 15px 0 0 15px;
+    border-right: 0;
+    padding: 0 2px 0 5px;
+}
+
+.StationNumber span:nth-child(2) {
+    border-radius: 0 15px 15px 0;
+    padding: 0 5px 0 2px;
 }

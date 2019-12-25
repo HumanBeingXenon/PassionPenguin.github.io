@@ -1,11 +1,7 @@
 /* Made by Penguin */
 
-function getId(id) {
-    return document.getElementById(id);
-}
-
-function getclass(cn) {
-    return document.getElementsByClassName(cn);
+function $(value) {
+    return document.querySelectorAll(value);
 }
 
 let doc = document;
@@ -15,10 +11,11 @@ let body = document.body;
 window.onload = function () {
     window.onscroll = function () {
         let i = document.documentElement.scrollTop;
-        i > 150 ? getId("navbar").classList.add("onscroll") : getId("navbar").classList.contains("onscroll") ? getId("navbar").classList.remove("onscroll") : void (0);
+        let a = $("#navbar");
+        i > 150 ? a.classList.add("onscroll") : a.classList.contains("onscroll") ? a.classList.remove("onscroll") : void (0);
     };
-    getId("ChangeFloor").onclick = function () {
-        let fm = getId("FloorMap");
+    $("#ChangeFloor").onclick = function () {
+        let fm = $("#FloorMap");
         if (fm.getAttribute("data-range") !== null) {
             let r = Number(fm.getAttribute("data-range"));
             let rn = this.innerText !== "目前" ? this.innerText === "未来" ? 1 : Number(this.innerText[this.innerText.length - 1]) : 0;
@@ -45,8 +42,8 @@ window.onload = function () {
         } else
             this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("楼层.png", "未来楼层.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来楼层.png", "楼层.png")), this.innerText = "未来");
     };
-    getId("ChangeTracks").onclick = function () {
-        let fm = getId("TracksMap");
+    $("#ChangeTracks").onclick = function () {
+        let fm = $("#TracksMap");
         if (fm.getAttribute("data-range") !== null) {
             let r = Number(fm.getAttribute("data-range"));
             let rn = this.innerText !== "目前" ? this.innerText === "未来" ? 1 : Number(this.innerText[this.innerText.length - 1]) : 0;
@@ -73,10 +70,20 @@ window.onload = function () {
         } else
             this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("站线.png", "未来站线.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来站线.png", "站线.png")), this.innerText = "未来");
     };
+    $("#toggle_wikiinf")[0].onclick = function () {
+        let a = $("#wikiinf")[0];
+        if (a.style.display === "none" || a.style.display === "") {
+            a.style.display = "block";
+            this.innerText = "- Less -";
+        } else {
+            a.style.display = "none";
+            this.innerText = "+ More +";
+        }
+    };
 };
 
 function WikiGetContent(LineNum) { // Working on fixing this.
-    let wrap = getId('StationsList');
+    let wrap = $('#StationsList');
     let table = doc.createElement('table');
     let thead = doc.createElement('thead');
     thead.innerHTML = "<tr><th>车站编号</th><th>车站名称</th><th>换乘线路</th><th>所在区县</th><th>启用时间</th><th>月台结构</th></tr>";
