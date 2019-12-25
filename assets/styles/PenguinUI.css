@@ -1368,6 +1368,7 @@ h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
 .nav-heading > ul {
     border-bottom: 1px solid #ddd;
     width: 75%;
+    min-width: 575px;
     margin: 0 auto;
 }
 

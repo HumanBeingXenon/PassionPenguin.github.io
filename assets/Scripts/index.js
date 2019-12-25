@@ -11,11 +11,11 @@ let body = document.body;
 window.onload = function () {
     window.onscroll = function () {
         let i = document.documentElement.scrollTop;
-        let a = $("#navbar");
+        let a = $("#navbar")[0];
         i > 150 ? a.classList.add("onscroll") : a.classList.contains("onscroll") ? a.classList.remove("onscroll") : void (0);
     };
-    $("#ChangeFloor").onclick = function () {
-        let fm = $("#FloorMap");
+    $("#ChangeFloor")[0].onclick = function () {
+        let fm = $("#FloorMap")[0];
         if (fm.getAttribute("data-range") !== null) {
             let r = Number(fm.getAttribute("data-range"));
             let rn = this.innerText !== "目前" ? this.innerText === "未来" ? 1 : Number(this.innerText[this.innerText.length - 1]) : 0;
@@ -42,8 +42,8 @@ window.onload = function () {
         } else
             this.innerText === "未来" ? ((fm.setAttribute("src", fm.getAttribute("src").replace("楼层.png", "未来楼层.png"))), (this.innerText = "目前")) : (fm.setAttribute("src", fm.getAttribute("src").replace("未来楼层.png", "楼层.png")), this.innerText = "未来");
     };
-    $("#ChangeTracks").onclick = function () {
-        let fm = $("#TracksMap");
+    $("#ChangeTracks")[0].onclick = function () {
+        let fm = $("#TracksMap")[0];
         if (fm.getAttribute("data-range") !== null) {
             let r = Number(fm.getAttribute("data-range"));
             let rn = this.innerText !== "目前" ? this.innerText === "未来" ? 1 : Number(this.innerText[this.innerText.length - 1]) : 0;
