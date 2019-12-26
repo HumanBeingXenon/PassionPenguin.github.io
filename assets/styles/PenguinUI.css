@@ -1690,3 +1690,19 @@ th {
     font-weight: 600;
     text-align: center;
 }
+
+.alertbar {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    z-index: 1;
+    line-height: 40px;
+    padding-left: 20px;
+    color: var(--Red4);
+}
+
+}
