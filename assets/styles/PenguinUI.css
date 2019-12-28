@@ -1704,3 +1704,31 @@ th {
     padding-left: 20px;
     color: var(--Red4);
 }
+
+.imgbox {
+    width: 80%;
+    min-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.imgbox img {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.imgbox span {
+    font: 400 12px/2 sans-serif;
+    color: #aaa;
+}
+
+.ref {
+    background-color: #f8f4ef50;
+    padding: 10px;
+    font: 12px/1.5 sans-serif;
+}
+
+}
