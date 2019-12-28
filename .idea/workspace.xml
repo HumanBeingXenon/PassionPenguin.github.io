@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+            <state relative-caret-position="143">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -302,7 +302,7 @@
       <workItem from="1577268619319" duration="5077000" />
       <workItem from="1577277841125" duration="5166000" />
       <workItem from="1577360274081" duration="9633000" />
-      <workItem from="1577495339780" duration="4015000" />
+      <workItem from="1577495339780" duration="4116000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1577364092478</created>
@@ -381,11 +381,25 @@
       <option name="project" value="LOCAL" />
       <updated>1577499361816</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="temp upd since 19-12-28">
+      <created>1577499828652</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577499828652</updated>
+    </task>
+    <task id="LOCAL-00013" summary="temp upd since 19-12-28">
+      <created>1577499876709</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577499876709</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12000000" />
+    <option name="totallyTimeSpent" value="12101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1025" y="23" width="1023" height="627" extended-state="0" />
@@ -421,7 +435,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upd" />
     <MESSAGE value="fix bugs[Yuancun]" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs[Yuancun]" />
+    <MESSAGE value="temp upd since 19-12-28" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp upd since 19-12-28" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Example.html">
@@ -574,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        <state relative-caret-position="143">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
