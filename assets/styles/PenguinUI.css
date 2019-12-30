@@ -14,6 +14,10 @@ a, a:link, a:hover, a:focus, a:visited, a:active {
     margin: 0 1px;
 }
 
+button:focus {
+    outline: none;
+}
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -96,6 +100,7 @@ html, body {
     --GZL20: rgb(231, 167, 201);
     --GZL21: rgb(31, 30, 68);
     --GZL22: rgb(17, 33, 67);
+    --GZL28: #303c3c;
     --GZLUN: rgb(50, 50, 50);
     --GFL: rgb(180, 197, 48);
     --GZAPM: #00B2E3;
@@ -227,6 +232,10 @@ html, body {
     color: var(--GZL22);
 }
 
+.font-Line28-GZ {
+    color: var(--GZL28);
+}
+
 .font-LineAPM-GZ {
     color: var(--GZAPM);
 }
@@ -340,6 +349,11 @@ html, body {
     color: #fff;
 }
 
+.icon-Line28-GZ {
+    background: var(--GZL28);
+    color: #fff;
+}
+
 .icon-LineAPM-GZ {
     background: var(--GZAPM);
 }
@@ -443,6 +457,10 @@ html, body {
 
 .border-Line22-GZ {
     border-color: var(--GZL22);
+}
+
+.border-Line28-GZ {
+    border-color: var(--GZL28);
 }
 
 .border-Line-GF {
@@ -1729,6 +1747,4 @@ th {
     background-color: #f8f4ef50;
     padding: 10px;
     font: 12px/1.5 sans-serif;
-}
-
 }
