@@ -16,3 +16,29 @@ let GZLine1Stations = {
         UC: ["Line-10-GZ", "Line-13-GZ"]
     }, {}, {C: ["Line-3-GZ"], UC: ["Line-11-GZ", "Line-18-GZ"]}]
 };
+
+let CulturalPark = {
+    underground: 4,
+    underground_floor: [{name: "站厅", cont: "售票机、客服中心、商店、警务室、安检设施、公共洗手间"}, {name: "设备层", cont: "车站设备"}, {
+        child: true,
+        subcont: [{name: "8号线缓建平台(N.)", cont: "连接北侧站厅与站台，有一组扶梯", belong: "Line8-GZ"}, {
+            name: "6号线站台",
+            platform: true,
+            platinf: {
+                type: "island",
+                track: [{direction: "l", towards: "浔峰岗", next: "黄沙"}, {direction: "r", towards: "香雪", next: "一德路"}],
+                plat: [{belong: "6号线", platform: "1", way: "上行"}, {belong: "6号线", platform: "2", way: "下行"}]
+            },
+            belong: "Line6-GZ"
+        }, {name: "8号线缓建平台(S.)", cont: "连接南侧（中部）站厅与站台，有一组楼梯和垂直电梯", belong: "Line8-GZ"}]
+    }, {
+        name: "8号线站台",
+        platform: true,
+        platinf: {
+            type: "island",
+            track: [{direction: "l", towards: "万胜围", next: "同福西"}, {direction: "r", towards: "文化公园", next: "终点站"}],
+            plat: [{belong: "8号线", platform: "4", way: "上行"}, {belong: "8号线", platform: "3", way: "下行"}]
+        },
+        belong: "Line8-GZ"
+    }]
+};
