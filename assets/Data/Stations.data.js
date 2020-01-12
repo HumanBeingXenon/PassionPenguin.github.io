@@ -26,8 +26,17 @@ let CulturalPark = {
             platform: true,
             platinf: {
                 type: "island",
-                track: [{direction: "l", towards: "浔峰岗", next: "黄沙"}, {direction: "r", towards: "香雪", next: "一德路"}],
-                plat: [{belong: "6号线", platform: "1", way: "上行"}, {belong: "6号线", platform: "2", way: "下行"}]
+                cont: [{type: "track", direction: "l", towards: "浔峰岗", next: "黄沙", belong: "6号线"}, {
+                    type: "platform",
+                    belong: "6号线",
+                    platform: "1",
+                    way: "上行"
+                }, {
+                    type: "platform", belong: "6号线", platform: "2", way: "下行"
+                }, {
+                    type: "track", direction: "r", towards: "香雪", next: "一德路",
+                    belong: "6号线"
+                }]
             },
             belong: "Line6-GZ"
         }, {name: "8号线缓建平台(S.)", cont: "连接南侧（中部）站厅与站台，有一组楼梯和垂直电梯", belong: "Line8-GZ"}]
@@ -36,8 +45,17 @@ let CulturalPark = {
         platform: true,
         platinf: {
             type: "island",
-            track: [{direction: "l", towards: "万胜围", next: "同福西"}, {direction: "r", towards: "文化公园", next: "终点站"}],
-            plat: [{belong: "8号线", platform: "4", way: "上行"}, {belong: "8号线", platform: "3", way: "下行"}]
+            cont: [{type: "track", direction: "l", towards: "万胜围", next: "同福西", belong: "8号线"}, {
+                belong: "8号线",
+                platform: "4",
+                way: "上行", type: "platform"
+            }, {belong: "8号线", platform: "3", way: "下行", type: "platform"}, {
+                type: "track",
+                direction: "r",
+                towards: "文化公园",
+                next: "终点站",
+                belong: "8号线"
+            }]
         },
         belong: "Line8-GZ"
     }]
