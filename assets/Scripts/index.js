@@ -1,9 +1,5 @@
 /* Made by Penguin */
 
-function $(value) {
-    return document.querySelectorAll(value);
-}
-
 let chineseNum = ["一", "二", "三", "四", "五", "六", "七", "八", "九"];
 let doc = document;
 let docE = document.documentElement;

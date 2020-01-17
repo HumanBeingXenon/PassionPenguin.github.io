@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{canvas2image, html2canvas, jquery}" />
+    <file url="PROJECT" libraries="{bootstrap, bootstrap.bundle, canvas2image, html2canvas, jquery, jquery-3.4.1.slim, popper}" />
   </component>
 </project>

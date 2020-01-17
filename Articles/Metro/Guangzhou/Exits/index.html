@@ -7,21 +7,591 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/styles/PenguinUI.css" rel="stylesheet">
+    <style>
+        #stationlist h2 {
+            font: 600 24px/1.5 sans-serif;
+            border-bottom: 1px solid #aaa;
+            width: fit-content;
+        }
+
+        #stationlist a {
+            margin: 2px;
+            color: #006487;
+            cursor: pointer;
+            font: 16px/2 Montserrat, Helvetica, Arial, sans-serif
+        }
+
+        #stationlist div > div {
+            padding: 2px;
+        }
+
+        #stationlist div > div > span {
+            background: #ececec;
+            display: inline-block;
+            width: 40px;
+            text-align: center;
+            height: 25px;
+            font: 14px/25px sans-serif;
+        }
+
+        #stationlist .btngroup {
+            padding: 0;
+        }
+
+        #stationlist button {
+            padding: 4px 10px;
+            border-bottom: 0;
+            background: transparent;
+        }
+
+        #stationlist button:focus, button:hover {
+            background: transparent;
+            outline: none;
+        }
+
+        .bg-image {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/Chigang.png") no-repeat 0 0;
+            background-size: 100%;
+            position: absolute;
+            top: 15vh;
+            width: 100%;
+            height: 62.5vw;
+        }
+
+        .bg-color {
+            height: 15vh;
+            background: #cce3f1;
+            width: 100%;
+        }
+
+        html, body {
+            background: #fff;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .navi.card {
+            position: absolute;
+            top: calc(15vh + 52.5vw);
+            left: 50%;
+            transform: translate(-50%);
+            width: fit-content;
+        }
+
+        .icongroup {
+            margin: 5px auto;
+            width: 150px;
+            display: inline-block;
+            background: #fff;
+            border-radius: 4px;
+        }
+
+        .icongroup > * > :first-child {
+            width: 28px;
+            height: 28px;
+            background-size: 28px;
+            display: inline-block;
+        }
+
+        .icongroup:nth-child(3) {
+            margin-top: 10px;
+            width: 300px;
+        }
+
+        .text {
+            display: inline-block;
+            width: fit-content;
+        }
+
+        .text span:first-child {
+            font: 800 16px/20px sans-serif;
+            display: block;
+        }
+
+        .text span:nth-child(2) {
+            font: 700 14px/12px sans-serif;
+            display: block;
+        }
+
+        .icongroup .exit {
+            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Exit.png");
+        }
+
+        .icongroup .navi {
+            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Navigation.png");
+        }
+
+        .icongroup .wiki {
+            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Wiki.png");
+        }
+
+        .card-body {
+            width: 350px;
+            margin: 0 auto;
+        }
+
+        .train {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-image: url("/assets/Images/Metro/Guangzhou/Exits/A6.png");
+            background-size: auto 100%;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-position: 100% 0;
+            height: 36px;
+            width: 100%;
+        }
+
+        .copyright-info {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #ffffffee;
+            padding: 20px;
+            z-index: 999;
+        }
+
+        .copyright-info p {
+            font: 500 14px/20px Montserrat, Helvetica, Arial, sans-serif;
+            width: 80%;
+            text-align: center;
+        }
+
+        .logo {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            width: 120px;
+        }
+
+        [data-target='#copyrightPage'] {
+            background: #5e5e5e;
+            position: absolute;
+            bottom: 72px;
+            text-align: center;
+            width: 150px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        [data-target='#copyrightPage']:hover, [data-target='#copyrightPage']:focus {
+            background: #333
+        }
+
+        #copyrightPage .display-group {
+            position: absolute;
+            top: 33%;
+            left: 50%;
+            transform: translate(-50%, -33%);
+            width: 360px;
+        }
+
+        #stationlistWrap, #stationinfWrap, #platformChoserWrap {
+            position: absolute;
+            background: #ffffff;
+            padding: 20px;
+            z-index: 999;
+            overflow-y: scroll;
+        }
+
+        #stationlistWrap.show, #stationinfWrap.show, #platformChoserWrap.show {
+            display: block;
+        }
+
+        #stationlistWrap .inner, #stationinfWrap .inner, #platformChoserWrap .inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        [data-action="close"][data-toggle="collapse"] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1001;
+        }
+
+        #stationlistWrap, #stationinfWrap {
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+        #platformChoserWrap {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 350px;
+            height: fit-content;
+        }
+
+        #stationinfWrap {
+            z-index: 1000;
+        }
+
+        #stationlistWrap .selectLine {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 56px;
+            background: #fff;
+            border-bottom: 1px solid #5e5e5e;
+            padding: 7px;
+            z-index: 1000;
+        }
+
+        .selectLine > span, .selectLine .display-group {
+            display: inline-block;
+            padding: 2px;
+            margin: 5px;
+        }
+
+        .selectLine > span {
+            padding: 2px 2px 2px 20px;
+        }
+
+        .selectLine .display-group {
+            border: 2px solid #e3e3e3;
+            padding: 3px 6px;
+        }
+
+        .stationlistcontent {
+            width: 100%;
+            height: calc(100vh - 56px);
+            position: absolute;
+            top: 56px;
+            left: 0;
+            background: #ffffff80;
+            padding: 20px;
+            z-index: 0;
+        }
+
+        [id^="content_"] a {
+            display: block;
+            width: 100%;
+            padding: 2px;
+            border-bottom: 1px solid #f3f2ee;
+        }
+
+        #inftable {
+            width: fit-content;
+            margin: 20px auto;
+
+        }
+
+        #inftable > div {
+            display: block;
+            font: 16px/2 sans-serif;
+        }
+
+        #inftable > div > div {
+            display: inline-block;
+        }
+
+        #inftable > div > div:first-child {
+            border: 0;
+            text-align: right;
+            margin-right: 20px;
+            width: 300px;
+        }
+
+        #inftable > div > div > span {
+            margin: 0 10px;
+        }
+
+        #inftable > div > div:nth-child(2) {
+            width: 40px;
+            font: 800 18px/36px sans-serif;
+            border: 3px solid #5e5e5e99;
+            text-align: center;
+        }
+
+        #inftable > div:not(.last-door) > div:nth-child(2) {
+            border-width: 3px 3px 0 3px;
+        }
+
+        #inftable > div:last-child > div:nth-child(2) {
+            border: 3px solid #5e5e5e99;
+        }
+
+        .escalator {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/escalator.png") no-repeat transparent;
+        }
+
+        .escalator-up {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/escalator-up.png") no-repeat transparent;
+        }
+
+        .escalator-down {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/escalator-down.png") no-repeat transparent;
+        }
+
+        .staircase {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/staircase.png") no-repeat transparent;
+        }
+
+        .staircase-up {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/staircase-up.png") no-repeat transparent;
+        }
+
+        .staircase-down {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/staircase-down.png") no-repeat transparent;
+        }
+
+        .elevator {
+            background: url("/assets/Images/Metro/Guangzhou/Exits/elevator.png") no-repeat transparent;
+        }
+
+        [class^="escalator"], [class^="staircase"], .elevator {
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .first-door > div:nth-child(2) {
+            border-radius: 5px 5px 0 0;
+        }
+
+        .last-door > div:nth-child(2) {
+            border-radius: 0 0 5px 5px;
+            margin-bottom: 5px;
+        }
+
+        .first-cabin > div:nth-child(2) {
+            border-radius: 20px 20px 0 0;
+        }
+
+        .last-cabin > div:nth-child(2) {
+            border-radius: 0 0 20px 20px;
+        }
+    </style>
 </head>
 <body>
-<div class="linebox"></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-
+<div class="mainscreen show" id="mainScreen">
+    <img class="logo" src="/assets/Images/Metro/Guangzhou/Exits/GuangzhouMTR.png" alt="GZMTR LOGO">
+    <div class="bg-color"></div>
+    <div class="bg-image"></div>
+    <div class="train"></div>
+    <div class="navi card">
+        <div class="card-body">
+            <div class="icongroup" data-target="#stationlistWrap" data-toggle="collapse" role="button">
+                <div class="wrap-center">
+                    <div class="exit"></div>
+                    <div class="text">
+                        <span>出入口指南</span><span>Exit Guide</span></div>
+                </div>
+            </div>
+            <div class="icongroup" data-toggle="collapse" role="button" data-target="#routemapWrap">
+                <div class="wrap-center">
+                    <div class="navi"></div>
+                    <div class="text"><span>运行地图</span><span>Routemap</span></div>
+                </div>
+            </div>
+            <div class="icongroup" data-toggle="collapse" role="button" data-target="?wiki">
+                <div class="wrap-center">
+                    <div class="wiki"></div>
+                    <div class="text"><span>全线网维基（设计中）</span><span>Wiki（Under Design）</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright-info collapse" id="copyrightPage">
+    <div class="inner">
+        <div class="display-group">
+            <p>CC BY-NC-SA 3.0 共享，转载请注明协议<br>开源协议见Creative Common官网</p>
+            <p>版本号 v0.1(alpha) 内部专用 #b013603bc09157ee82cb3a8421a5b5b8（去除该段md5）</p>
+            <p>编辑开发者：霜羽<br>联络方式：GitHub @PassionPenguin<br>地铁族@霜羽 Bilibili@霜中寒翎</p>
+            <p>数据采集感谢:@ke1997 @HumanBeing @Neveadun<br>您可在地铁族论坛找到他们</p>
+        </div>
+        <button class="btn" data-toggle="collapse" data-target="#copyrightPage">× CLOSE ×</button>
+    </div>
+</div>
+<button class="btn" data-toggle="collapse" data-target="#copyrightPage">显示版权信息</button>
+<div id="stationlistWrap" class="collapse">
+    <div class="inner">
+        <div class="selectLine"><span>选择线路：</span>
+            <button class="display-group dropdown-toggle" type="button" id="selectLineButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><span class="icon-Line1-GZ">  </span> <span class="name">广州地铁1号线 Line 1</span>
+            </button>
+            <div class="dropdown-menu dropdown-line" aria-labelledby="selectLineButton">
+                <a class="dropdown-item" href="#content_0" role="button" data-toggle="collapse"><span
+                        class="icon-Line1-GZ">  </span> <span class="name">广州地铁1号线 Line 1</span></a>
+                <a class="dropdown-item" href="#content_1" role="button" data-toggle="collapse"><span
+                        class="icon-Line2-GZ">  </span> <span class="name">广州地铁2号线 Line 2</span></a>
+                <a class="dropdown-item" href="#content_2" role="button" data-toggle="collapse"><span
+                        class="icon-Line3-GZ">  </span> <span class="name">广州地铁3号线 Line 3</span></a>
+                <a class="dropdown-item" href="#content_3" role="button" data-toggle="collapse"><span
+                        class="icon-Line4-GZ">  </span> <span class="name">广州地铁4号线 Line 4</span></a>
+                <a class="dropdown-item" href="#content_4" role="button" data-toggle="collapse"><span
+                        class="icon-Line5-GZ">  </span> <span class="name">广州地铁5号线 Line 5</span></a>
+                <a class="dropdown-item" href="#content_5" role="button" data-toggle="collapse"><span
+                        class="icon-Line6-GZ">  </span> <span class="name">广州地铁6号线 Line 6</span></a>
+                <a class="dropdown-item" href="#content_6" role="button" data-toggle="collapse"><span
+                        class="icon-Line7-GZ">  </span> <span class="name">广州地铁7号线 Line 7</span></a>
+                <a class="dropdown-item" href="#content_7" role="button" data-toggle="collapse"><span
+                        class="icon-Line8-GZ">  </span> <span class="name">广州地铁8号线 Line 8</span></a>
+                <a class="dropdown-item" href="#content_8" role="button" data-toggle="collapse"><span
+                        class="icon-Line9-GZ">  </span> <span class="name">广州地铁9号线 Line 9</span></a>
+                <a class="dropdown-item" href="#content_9" role="button" data-toggle="collapse"><span
+                        class="icon-Line13-GZ">  </span> <span class="name">广州地铁13号线 Line 13</span></a>
+                <a class="dropdown-item" href="#content_10" role="button" data-toggle="collapse"><span
+                        class="icon-Line14-GZ">  </span> <span class="name">广州地铁14号线 Line 14</span></a>
+                <a class="dropdown-item" href="#content_11" role="button" data-toggle="collapse"><span
+                        class="icon-Line21-GZ">  </span> <span class="name">广州地铁21号线 Line 21</span></a>
+                <a class="dropdown-item" href="#content_12" role="button" data-toggle="collapse"><span
+                        class="icon-Line-GF">  </span> <span class="name">广州地铁广佛线 Line GF</span></a>
+                <a class="dropdown-item" href="#content_13" role="button" data-toggle="collapse"><span
+                        class="icon-LineAPM-GZ">  </span> <span class="name">珠新旅送系统 Line APM</span></a>
+                <a class="dropdown-item" href="#content_14" role="button" data-toggle="collapse"><span
+                        class="icon-THZ1-GZ">  </span> <span class="name">海珠有轨实验线 Line THZ1</span></a>
+            </div>
+        </div>
+        <div class="innerData"></div>
+        <span data-toggle="collapse" data-target="#stationlistWrap" data-action="close">×</span>
+    </div>
+</div>
+<div id="stationinfWrap" class="collapse">
+    <div class="inner">
+        <span data-toggle="collapse" data-target="#stationinfWrap" data-action="close">×</span>
+        <div class="innerData"></div>
+    </div>
+</div>
+<div class="card card-body" id="platformChoserWrap">
+    <div class="inner">
+        <div class="selectLine"><span>选择站台：</span>
+            <div class="innerData">
+            </div>
+        </div>
+        <span data-toggle="collapse" data-target="#platformChoserWrap" data-action="close">×</span>
+    </div>
+</div>
 </body>
 </html>
+<script src="/assets/Scripts/lib.js"></script>
+<script>
+    $(function () {
+        $(".dropdown-line a").click(function () {
+            $("#selectLineButton")[0].innerHTML = this.innerHTML;
+        });
+    });
+
+    let linedata = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "13", "14", "21", "GF", "APM", "THZ1"];
+    let routedirection = [["广州东站方向", "西塱方向"], ["嘉禾望岗方向", "广州南站方向"], ["天河客运站方向", "机场北方向", "机场北/天河客运站方向", "体育西路方向", "番禺广场方向", "体育西路/番禺广场方向"], ["黄村方向", "南沙客运港方向"], ["文冲方向", "滘口方向"], ["香雪方向", "浔峰岗方向"], ["大学城南方向", "广州南站方向"], ["文化公园方向", "万胜围方向"], ["高增方向", "飞鹅岭方向"], ["新沙方向", "鱼珠方向"], ["东风方向", "镇龙方向", "嘉禾望岗方向", "新和方向"], ["增城广场方向", "员村方向"], ["新城东方向", "沥滘方向"], ["林和西方向", "广州塔方向"], ["万胜围方向", "广州塔方向"]];
+    let globallist = ["Line1-GZ", "Line2-GZ", "Line3-GZ", "Line4-GZ", "Line5-GZ", "Line6-GZ", "Line7-GZ", "Line8-GZ", "Line9-GZ", "Line13-GZ", "Line14-GZ", "Line21-GZ", "Line-GF", "LineAPM-GZ", "THZ1-GZ"];
+
+    function choosePlatform(line, station) {
+        console.log(line, station);
+        $("#platformChoserWrap")[0].classList.add("show");
+        $.getJSON("/assets/Data/stationnum.json", function (json) {
+            $.getJSON("/assets/Data/stationplat.json", function (res) {
+                let a = "";
+                let inf = res[json[linedata.indexOf(line)][parseInt(station) - 1]];
+                for (let i = 0; i < inf.length; i++) {
+                    a += "<a class='dropdown-item' href='javascript:void(0)' onclick='showstationinf(\"" + line + "\",\"" + station + "\"," + i + ")'>";
+                    let b = inf[i][0];
+                    let rd;
+                    if (b === "7")
+                        rd = "仅供下车";
+                    else if (b === "8")
+                        rd = "仅供上车";
+                    else if (b === "9")
+                        rd = "终点站台";
+                    else if (b === "10")
+                        rd = "不启用（快车越行或备用）";
+                    else rd = routedirection[linedata.indexOf(inf[i][1])][inf[i][0] - 1];
+                    let globalname = globallist[linedata.indexOf(inf[i][1])];
+                    a += "<i class='platformnum font-" + globalname + " border-" + globalname + "'>" + (i + 1) + "</i> 站台 " + rd + "</a>";
+                }
+                $("#platformChoserWrap .innerData")[0].innerHTML = a;
+            })
+        });
+    }
+
+    function showstationinf(line, station, platformnum) {
+        $("#stationinfWrap")[0].classList.add("show");
+        $.getJSON("/assets/Data/stationinf.json", function (json) {
+            let table = cE("div");
+            table.id = "inftable";
+            let door = [["GF", "4", "6"].includes(line) ? 4 : 6, ["1", "2", "8"].includes(line) ? 5 : ["4", "5", "6"].includes(line) ? 3 : 4];
+            for (let i = 1, k = 1; i <= door[0]; i++) {
+                for (let j = 1; j <= door[1]; j++, k++) {
+                    let res = "";
+                    if (j === 1)
+                        if (i === 1)
+                            res += "<div class='first-cabin first-door'>";
+                        else res += "<div class='first-door'>";
+                    else if (j === door[1])
+                        if (i === door[0])
+                            res += "<div class='last-cabin last-door'>";
+                        else res += "<div class='last-door'>";
+                    else res += "<div>";
+                    // res += "<div" + (j === 1 ? i === 1 ? " class='first-cabin first-door'>" : " class='first-door'>" : j === door[1] ? i === door[0] ? " class='last-cabin last-door'" : " class='last-door'" : ">");
+                    res += "<div id='door_" + k + "'></div><div>" + k + "</div></div>";
+                    table.innerHTML += res;
+                }
+            }
+            window.json = json;
+            $("#stationinfWrap .inner")[0].innerHTML = "";
+            $("#stationinfWrap .inner")[0].appendChild(table);
+            //11>2>platform>0>1>0>0
+            let data = json[linedata.indexOf(line)][parseInt(station) - 1].platform[platformnum];
+            console.log(data, platformnum);
+            window.data = data;
+            for (let j = 0; j < data[1].length; j++)
+                $("#door_" + data[1][j][0])[0].innerHTML += "<span><span class='escalator'></span> " + data[1][j][1] + "</span>";
+            for (let j = 0; j < data[2].length; j++)
+                $("#door_" + data[2][j][0])[0].innerHTML += "<span><span class='elevator'></span> " + data[2][j][1] + "</span>";
+            for (let j = 0; j < data[3].length; j++)
+                $("#door_" + data[3][j][0])[0].innerHTML += "<span><span class='staircase'></span> " + data[3][j][1] + "</span>";
+        });
+    }
+
+    function loadList() {
+        $.getJSON("/assets/Data/stationlist.json", function (json) {
+            var text = "<div id='stationlist'>";
+            for (let i = 0; i < json.length; i++) {
+                let linename = json[i].globalname === "Line-GF" ? "GF" : json[i].globalname.search("Line") !== -1 ? json[i].globalname.substring(4, json[i].globalname.search("-")) : json[i].globalname.substring(0, json[i].globalname.search("-"));
+
+                text += "<div id='content_" + i + "' class='collapse stationlistcontent' data-parent='#stationlist'><h2 class='line-title'>" + json[i].name + "</h2><div>";
+                if (json[i].branch) {
+                    text += "<div><span>主线</span>";
+                    for (let j = 0; j < json[i].station[0].length; j++)
+                        text += "<a id='" + json[i].station[0][j][0] + "'><div class=\"StationNumber border-" + json[i].globalname + "\"><span>" + linename + "</span><span>" + (j < 9 ? "0" + (j + 1) : (j + 1)) + "</span></div><span>" + json[i].station[0][j][0] + "</span></a>";
+                    text += "</div><div><span>支线</span>";
+                    for (let j = 0; j < json[i].station[1].length; j++)
+                        text += "<a id='" + json[i].station[1][j][0] + "'><div class=\"StationNumber border-" + json[i].globalname + "\"><span>" + linename + "</span><span>" + (Number(json[i].branch) + j) + "</span></div><span>" + json[i].station[1][j][0] + "</span></a>";
+                    text += "</div>";
+                } else {
+                    text += "<div>";
+                    for (let j = 0; j < json[i].station.length; j++) {
+                        text += "<a id='" + json[i].station[j][0] + "'><div class=\"StationNumber border-" + json[i].globalname + "\"><span>" + linename + "</span><span>" + (j < 9 ? "0" + (j + 1) : (j + 1)) + "</span></div><span>" + json[i].station[j][0] + "</span></a>";
+                    }
+                    text += "</div>";
+                }
+                text += "</div></div>";
+            }
+            $(".innerData")[0].innerHTML = text + "</div>";
+            window.listtext = text + "</div>";
+            $("#content_0")[0].classList.add("show");
+            for (let i = 0; i < $("#stationlist a").length; i++) {
+                $("#stationlist a")[i].onclick = function () {
+                    let a = this.children[0].children;
+                    choosePlatform(a[0].innerText, a[1].innerText);
+                }
+            }
+        });
+    }
+
+    loadList();
+    choosePlatform("21", "03");
+</script>
