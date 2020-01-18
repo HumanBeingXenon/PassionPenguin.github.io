@@ -228,6 +228,7 @@
             transform: translate(-50%, -50%);
             width: 350px;
             height: fit-content;
+            min-height: 225px;
         }
 
         #stationinfWrap {
@@ -377,13 +378,56 @@
         }
 
         .legend .inf {
-            position: absolute;
-            top: 25%;
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 50vw;
+            padding: 5px;
+            background: #ffffff80;
+            border: 4px solid #5e5e5e5e;
+            border-radius: 0 0 10px 0;
         }
 
         .legend .inf p {
-            font: 600 16px/2 Montserrat, Helvetica, Arial, sans-serif;
+            font: 400 14px/2 Montserrat, Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+
+        .interchange {
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 10px;
+            width: fit-content;
+            height: 30px;
+            display: inline-block;
+            font: 600 16px/25px Raleway;
+            padding: 0 7px;
+        }
+
+        .exitnum {
+            font: 700 18px/2 Raleway;
+            vertical-align: middle;
+            margin: 0 5px;
+        }
+
+        .legend p {
+            font-size: 13px;
+        }
+
+        .legend [class^="escalator"], .legend [class^="staircase"], .legend .elevator {
+            width: 25px;
+            height: 25px;
+            background-size: 25px
+        }
+
+        .legend .main {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding: 5px;
+            background: #ffffff80;
+            border: 4px solid #5e5e5e5e;
+            border-radius: 0 10px 0 0;
         }
     </style>
 </head>
@@ -478,7 +522,10 @@
         <div class="innerData"></div>
         <div class="legend">
             <div class="inf"><p>仅供参考，由于客流控制和检修等情况，部分设施届时可能不可用</p></div>
-            <div class="main"></div>
+            <div class="main"><p><i class="escalator"></i> 扶梯 | <i class="elevator"></i> 电梯 | <i class="staircase"></i>
+                楼梯</p>
+                <p><span class="exitnum">A</span> 出入口编号</p>
+                <p><span class="interchange icon-Line21-GZ">21</span> 换乘线路</p></div>
             <div class="direction"></div>
         </div>
     </div>
@@ -505,7 +552,6 @@
     let linedata = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "13", "14", "21", "GF", "APM", "THZ1"];
     let routedirection = [["广州东站方向", "西塱方向"], ["嘉禾望岗方向", "广州南站方向"], ["天河客运站方向", "机场北方向", "机场北/天河客运站方向", "体育西路方向", "番禺广场方向", "体育西路/番禺广场方向"], ["黄村方向", "南沙客运港方向"], ["文冲方向", "滘口方向"], ["香雪方向", "浔峰岗方向"], ["大学城南方向", "广州南站方向"], ["文化公园方向", "万胜围方向"], ["高增方向", "飞鹅岭方向"], ["新沙方向", "鱼珠方向"], ["东风方向", "镇龙方向", "嘉禾望岗方向", "新和方向"], ["增城广场方向", "员村方向"], ["新城东方向", "沥滘方向"], ["林和西方向", "广州塔方向"], ["万胜围方向", "广州塔方向"]];
     let globallist = ["Line1-GZ", "Line2-GZ", "Line3-GZ", "Line4-GZ", "Line5-GZ", "Line6-GZ", "Line7-GZ", "Line8-GZ", "Line9-GZ", "Line13-GZ", "Line14-GZ", "Line21-GZ", "Line-GF", "LineAPM-GZ", "THZ1-GZ"];
-    let config = [["1", "16"], ["2",]];
 
     function choosePlatform(line, station) {
         console.log(line, station);
