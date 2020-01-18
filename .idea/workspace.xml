@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="fix bugs">
-      <change afterPath="$PROJECT_DIR$/assets/Data/stationinf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Data/stationnum.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Data/stationplat.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Exits/Chigang.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/Images/Metro/Guangzhou/Exits/GuangzhouMTR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Scripts/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Documents.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Documents.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Scripts/stationlist.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Data/stationlist.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/PenguinUI.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/PenguinUI.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,16 +18,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="12860" column="13" selection-start-line="12860" selection-start-column="13" selection-end-line="12860" selection-end-column="13" />
+            <state relative-caret-position="159663">
+              <caret line="10564" column="6" selection-start-line="10564" selection-start-column="6" selection-end-line="10564" selection-end-column="6" />
               <folding>
                 <element signature="e#4#12855#0" />
                 <element signature="e#12859#28909#0" />
-                <element signature="e#28913#50472#0" />
                 <element signature="e#28919#29547#0" />
                 <element signature="e#29553#30181#0" />
                 <element signature="e#30187#30840#0" />
@@ -52,70 +43,49 @@
                 <element signature="e#38440#39068#0" />
                 <element signature="e#39074#39702#0" />
                 <element signature="e#39708#40336#0" />
-                <element signature="e#37172#37877#0" />
-                <element signature="e#37883#38759#0" />
-                <element signature="e#38765#39638#0" />
-                <element signature="e#39644#40418#0" />
-                <element signature="e#40424#41204#0" />
-                <element signature="e#41210#41838#0" />
-                <element signature="e#41844#42472#0" />
-                <element signature="e#45942#46579#0" />
-                <element signature="e#43112#43800#0" />
-                <element signature="e#43806#44434#0" />
-                <element signature="e#44440#45068#0" />
-                <element signature="e#45074#45727#0" />
-                <element signature="e#45733#46361#0" />
-                <element signature="e#46367#46995#0" />
-                <element signature="e#47003#62955#0" />
-                <element signature="e#62959#78355#0" />
-                <element signature="e#78359#98877#0" />
-                <element signature="e#98881#104691#0" />
-                <element signature="e#104695#114372#0" />
-                <element signature="e#114376#121379#0" />
-                <element signature="e#114382#115010#0" />
-                <element signature="e#115016#115644#0" />
-                <element signature="e#115650#116278#0" />
-                <element signature="e#121383#128386#0" />
-                <element signature="e#128396#129083#0" />
                 <element signature="e#133075#133993#0" />
-                <element signature="e#133999#134917#0" />
-                <element signature="e#135839#136744#0" />
-                <element signature="e#136763#137681#0" />
-                <element signature="e#137427#138087#0" />
-                <element signature="e#138093#138753#0" />
-                <element signature="e#132893#134115#0" />
                 <element signature="e#139833#140565#0" />
-                <element signature="e#139838#140570#0" />
-                <element signature="e#141309#142041#0" />
-                <element signature="e#142047#142779#0" />
-                <element signature="e#136657#137285#0" />
-                <element signature="e#137291#137919#0" />
-                <element signature="e#137925#138553#0" />
-                <element signature="e#138559#139187#0" />
-                <element signature="e#139193#139821#0" />
-                <element signature="e#139827#140455#0" />
-                <element signature="e#140461#141089#0" />
-                <element signature="e#141095#141723#0" />
-                <element signature="e#141729#142357#0" />
-                <element signature="e#142363#142991#0" />
-                <element signature="e#142999#157190#0" />
-                <element signature="e#157200#157828#0" />
-                <element signature="e#173152#178912#0" />
-                <element signature="e#178916#185978#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="385" column="69" selection-start-line="385" selection-start-column="69" selection-end-line="385" selection-end-column="69" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <marker date="1579322562667" expanded="true" signature="17592:18894" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
+        <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="497" column="20" selection-start-line="497" selection-start-column="20" selection-end-line="497" selection-end-column="20" />
+            <state relative-caret-position="114">
+              <caret line="1861" column="17" lean-forward="true" selection-start-line="1861" selection-start-column="17" selection-end-line="1861" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="303" column="8" lean-forward="true" selection-start-line="303" selection-start-column="8" selection-end-line="303" selection-end-column="8" />
               <folding>
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <marker date="1579157339418" expanded="true" signature="17043:18295" ph="..." />
+                <element signature="e#4#126#0" />
+                <element signature="e#130#325#0" />
+                <element signature="e#329#573#0" />
+                <element signature="e#577#773#0" />
+                <element signature="e#987#1271#0" />
+                <element signature="e#1275#1356#0" />
+                <element signature="e#1360#1496#0" />
               </folding>
             </state>
           </provider>
@@ -158,6 +128,7 @@
       <find>&quot;</find>
       <find>10</find>
       <find>platformChoser</find>
+      <find>platformnum</find>
     </findStrings>
     <replaceStrings>
       <replace>url=https://passionpenguin.github.io</replace>
@@ -224,13 +195,13 @@
         <option value="$PROJECT_DIR$/assets/Data/stationlist.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationnum.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationplat.json" />
+        <option value="$PROJECT_DIR$/assets/Data/stationinf.json" />
         <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" />
-        <option value="$PROJECT_DIR$/assets/Data/stationinf.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="1027" />
@@ -457,7 +428,8 @@
       <workItem from="1579134936369" duration="11296000" />
       <workItem from="1579156824412" duration="1146000" />
       <workItem from="1579158300616" duration="906000" />
-      <workItem from="1579176775957" duration="3396000" />
+      <workItem from="1579176775957" duration="5188000" />
+      <workItem from="1579271317062" duration="3983000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1577364092478</created>
@@ -585,17 +557,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578799213137</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="biggest update">
+      <created>1579264295006</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1579264295006</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116904000" />
+    <option name="totallyTimeSpent" value="122679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="840" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948928" weight="0.124542125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49948928" visible="true" weight="0.16033755" />
       <window_info id="Structure" order="1" sideWeight="0.50051075" side_tool="true" weight="0.13539822" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -668,7 +647,8 @@
     <MESSAGE value="temp upd since 19-12-28" />
     <MESSAGE value="upd 同福西 文化公园" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="biggest update" />
+    <option name="LAST_COMMIT_MESSAGE" value="biggest update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Example.html">
@@ -864,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1874" column="14" selection-start-line="1874" selection-start-column="14" selection-end-line="1874" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationplat.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
@@ -892,42 +865,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="255" column="8" selection-end-line="312" selection-end-column="1" />
-          <folding>
-            <element signature="e#4#126#0" />
-            <element signature="e#130#325#0" />
-            <element signature="e#329#573#0" />
-            <element signature="e#577#773#0" />
-            <element signature="e#987#1271#0" />
-            <element signature="e#1275#1356#0" />
-            <element signature="e#1360#1496#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="497" column="20" selection-start-line="497" selection-start-column="20" selection-end-line="497" selection-end-column="20" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <marker date="1579157339418" expanded="true" signature="17043:18295" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="12860" column="13" selection-start-line="12860" selection-start-column="13" selection-end-line="12860" selection-end-column="13" />
+        <state relative-caret-position="159663">
+          <caret line="10564" column="6" selection-start-line="10564" selection-start-column="6" selection-end-line="10564" selection-end-column="6" />
           <folding>
             <element signature="e#4#12855#0" />
             <element signature="e#12859#28909#0" />
-            <element signature="e#28913#50472#0" />
             <element signature="e#28919#29547#0" />
             <element signature="e#29553#30181#0" />
             <element signature="e#30187#30840#0" />
@@ -944,56 +888,43 @@
             <element signature="e#38440#39068#0" />
             <element signature="e#39074#39702#0" />
             <element signature="e#39708#40336#0" />
-            <element signature="e#37172#37877#0" />
-            <element signature="e#37883#38759#0" />
-            <element signature="e#38765#39638#0" />
-            <element signature="e#39644#40418#0" />
-            <element signature="e#40424#41204#0" />
-            <element signature="e#41210#41838#0" />
-            <element signature="e#41844#42472#0" />
-            <element signature="e#45942#46579#0" />
-            <element signature="e#43112#43800#0" />
-            <element signature="e#43806#44434#0" />
-            <element signature="e#44440#45068#0" />
-            <element signature="e#45074#45727#0" />
-            <element signature="e#45733#46361#0" />
-            <element signature="e#46367#46995#0" />
-            <element signature="e#47003#62955#0" />
-            <element signature="e#62959#78355#0" />
-            <element signature="e#78359#98877#0" />
-            <element signature="e#98881#104691#0" />
-            <element signature="e#104695#114372#0" />
-            <element signature="e#114376#121379#0" />
-            <element signature="e#114382#115010#0" />
-            <element signature="e#115016#115644#0" />
-            <element signature="e#115650#116278#0" />
-            <element signature="e#121383#128386#0" />
-            <element signature="e#128396#129083#0" />
             <element signature="e#133075#133993#0" />
-            <element signature="e#133999#134917#0" />
-            <element signature="e#135839#136744#0" />
-            <element signature="e#136763#137681#0" />
-            <element signature="e#137427#138087#0" />
-            <element signature="e#138093#138753#0" />
-            <element signature="e#132893#134115#0" />
             <element signature="e#139833#140565#0" />
-            <element signature="e#139838#140570#0" />
-            <element signature="e#141309#142041#0" />
-            <element signature="e#142047#142779#0" />
-            <element signature="e#136657#137285#0" />
-            <element signature="e#137291#137919#0" />
-            <element signature="e#137925#138553#0" />
-            <element signature="e#138559#139187#0" />
-            <element signature="e#139193#139821#0" />
-            <element signature="e#139827#140455#0" />
-            <element signature="e#140461#141089#0" />
-            <element signature="e#141095#141723#0" />
-            <element signature="e#141729#142357#0" />
-            <element signature="e#142363#142991#0" />
-            <element signature="e#142999#157190#0" />
-            <element signature="e#157200#157828#0" />
-            <element signature="e#173152#178912#0" />
-            <element signature="e#178916#185978#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="303" column="8" lean-forward="true" selection-start-line="303" selection-start-column="8" selection-end-line="303" selection-end-column="8" />
+          <folding>
+            <element signature="e#4#126#0" />
+            <element signature="e#130#325#0" />
+            <element signature="e#329#573#0" />
+            <element signature="e#577#773#0" />
+            <element signature="e#987#1271#0" />
+            <element signature="e#1275#1356#0" />
+            <element signature="e#1360#1496#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1861" column="17" lean-forward="true" selection-start-line="1861" selection-start-column="17" selection-end-line="1861" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="385" column="69" selection-start-line="385" selection-start-column="69" selection-end-line="385" selection-end-column="69" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <marker date="1579322562667" expanded="true" signature="17592:18894" ph="..." />
           </folding>
         </state>
       </provider>

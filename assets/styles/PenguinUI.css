@@ -1862,8 +1862,16 @@ th {
     padding: 1px;
     width: 30px;
     height: 30px;
-    font: 800 16px/1.5 sans-serif;
+    position: relative;
     display: inline-block;
+}
+
+.platformnum span {
+    font: 900 16px/1.5 sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .platformnum, .linenum, .track i {
@@ -1873,6 +1881,11 @@ th {
     font-style: normal;
     line-height: 20px;
     margin: 5px 3px;
+}
+
+.vertical-middle {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .direction[data-direction="l"] {
