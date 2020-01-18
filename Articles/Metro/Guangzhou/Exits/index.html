@@ -398,10 +398,10 @@
             border-style: solid;
             border-radius: 10px;
             width: fit-content;
-            height: 30px;
+            height: 33px;
             display: inline-block;
             font: 600 16px/25px Raleway;
-            padding: 0 7px;
+            padding: 2px;
         }
 
         .exitnum {
@@ -412,6 +412,13 @@
 
         .legend p {
             font-size: 13px;
+            text-align: center;
+            margin:5px auto 3px auto;
+        }
+
+        .legend .main p:first-child {
+            font: 600 15px/1 Montserrat, Helvetica, Arial, sans-serif;
+            margin-bottom: 20px;
         }
 
         .legend [class^="escalator"], .legend [class^="staircase"], .legend .elevator {
@@ -428,6 +435,16 @@
             background: #ffffff80;
             border: 4px solid #5e5e5e5e;
             border-radius: 0 10px 0 0;
+        }
+
+        .insideborder {
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            padding: 0 2px;
         }
     </style>
 </head>
@@ -522,10 +539,12 @@
         <div class="innerData"></div>
         <div class="legend">
             <div class="inf"><p>仅供参考，由于客流控制和检修等情况，部分设施届时可能不可用</p></div>
-            <div class="main"><p><i class="escalator"></i> 扶梯 | <i class="elevator"></i> 电梯 | <i class="staircase"></i>
-                楼梯</p>
+            <div class="main">
+                <p>- 图例 -</p>
+                <p><i class="escalator"></i> 扶梯 | <i class="elevator"></i> 电梯 | <i class="staircase"></i>
+                    楼梯</p>
                 <p><span class="exitnum">A</span> 出入口编号</p>
-                <p><span class="interchange icon-Line21-GZ">21</span> 换乘线路</p></div>
+                <p><span class="interchange icon-Line21-GZ"><span class="insideborder">21</span></span> 换乘线路</p></div>
             <div class="direction"></div>
         </div>
     </div>
