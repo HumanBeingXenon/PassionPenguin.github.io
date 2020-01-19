@@ -15,18 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.65111274">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="740">
-                  <caret line="630" column="76" selection-start-line="630" selection-start-column="76" selection-end-line="630" selection-end-column="76" />
+                <state relative-caret-position="490">
+                  <caret line="644" column="84" selection-start-line="644" selection-start-column="84" selection-end-line="644" selection-end-column="84" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1579446916738" expanded="true" signature="19454:20756" ph="..." />
+                    <marker date="1579450665982" expanded="true" signature="19454:20756" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -75,11 +75,11 @@
             <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="11760">
-                  <caret line="609" column="18" selection-start-line="609" selection-start-column="18" selection-end-line="609" selection-end-column="18" />
+                  <caret line="609" column="22" selection-start-line="609" selection-start-column="22" selection-end-line="609" selection-end-column="22" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1579446916738" expanded="true" signature="19454:20756" ph="..." />
+                    <marker date="1579450665982" expanded="true" signature="19454:20756" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -88,7 +88,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
+                <state relative-caret-position="474">
                   <caret line="1078" column="27" selection-start-line="1078" selection-start-column="27" selection-end-line="1078" selection-end-column="27" />
                 </state>
               </provider>
@@ -137,6 +137,7 @@
       <find>客村</find>
       <find>万胜围</find>
       <find>嘉禾望岗</find>
+      <find>station</find>
     </findStrings>
     <replaceStrings>
       <replace>url=https://passionpenguin.github.io</replace>
@@ -441,7 +442,7 @@
       <workItem from="1579356692574" duration="2087000" />
       <workItem from="1579362841615" duration="1073000" />
       <workItem from="1579364099475" duration="79000" />
-      <workItem from="1579441057994" duration="4789000" />
+      <workItem from="1579441057994" duration="6282000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1577364092478</created>
@@ -653,11 +654,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579446880362</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="changes.">
+      <created>1579446926416</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579446926416</updated>
+    </task>
+    <task id="LOCAL-00032" summary="remove unused previous version codes">
+      <created>1579450570988</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579450570988</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141289000" />
+    <option name="totallyTimeSpent" value="142782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -744,7 +759,10 @@
     <MESSAGE value="code beautify" />
     <MESSAGE value="update" />
     <MESSAGE value="fixed bugs: incorrect branch numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs: incorrect branch numbers" />
+    <MESSAGE value="changes." />
+    <MESSAGE value="remove comments" />
+    <MESSAGE value="remove unused previous version codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused previous version codes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Example.html">
@@ -1002,19 +1020,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="474">
           <caret line="1078" column="27" selection-start-line="1078" selection-start-column="27" selection-end-line="1078" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="630" column="76" selection-start-line="630" selection-start-column="76" selection-end-line="630" selection-end-column="76" />
+        <state relative-caret-position="490">
+          <caret line="644" column="84" selection-start-line="644" selection-start-column="84" selection-end-line="644" selection-end-column="84" />
           <folding>
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <marker date="1579446916738" expanded="true" signature="19454:20756" ph="..." />
+            <marker date="1579450665982" expanded="true" signature="19454:20756" ph="..." />
           </folding>
         </state>
       </provider>

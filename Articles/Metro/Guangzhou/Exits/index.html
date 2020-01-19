@@ -603,50 +603,51 @@
     function showstationinf(line, station, platformnum) {
         $("#stationinfWrap")[0].classList.add("show");
         $.getJSON("/assets/Data/stationinf.json", function (json) {
-        $.getJSON("/assets/Data/stationnum.json", function (num) {
-            let table = cE("div");
-            table.id = "inftable";
-            let door = [["GF", "4", "6"].includes(line) ? 4 : 6, ["1", "2", "8"].includes(line) ? 5 : ["4", "5", "6"].includes(line) ? 3 : 4];
-            for (let i = 1, k = 1; i <= door[0]; i++) {
-                for (let j = 1; j <= door[1]; j++, k++) {
-                    let res = "";
-                    if (j === 1)
-                        if (i === 1)
-                            res += "<div class='first-cabin first-door'>";
-                        else res += "<div class='first-door'>";
-                    else if (j === door[1])
-                        if (i === door[0])
-                            res += "<div class='last-cabin last-door'>";
-                        else res += "<div class='last-door'>";
-                    else res += "<div>";
-                    // res += "<div" + (j === 1 ? i === 1 ? " class='first-cabin first-door'>" : " class='first-door'>" : j === door[1] ? i === door[0] ? " class='last-cabin last-door'" : " class='last-door'" : ">");
-                    res += "<div id='door_" + k + "'></div><div>" + k + "</div></div>";
-                    table.innerHTML += res;
+            $.getJSON("/assets/Data/stationnum.json", function (num) {
+                let table = cE("div");
+                table.id = "inftable";
+                let door = [["GF", "4", "6"].includes(line) ? 4 : 6, ["1", "2", "8"].includes(line) ? 5 : ["4", "5", "6"].includes(line) ? 3 : 4];
+                for (let i = 1, k = 1; i <= door[0]; i++) {
+                    for (let j = 1; j <= door[1]; j++, k++) {
+                        let res = "";
+                        if (j === 1)
+                            if (i === 1)
+                                res += "<div class='first-cabin first-door'>";
+                            else res += "<div class='first-door'>";
+                        else if (j === door[1])
+                            if (i === door[0])
+                                res += "<div class='last-cabin last-door'>";
+                            else res += "<div class='last-door'>";
+                        else res += "<div>";
+                        // res += "<div" + (j === 1 ? i === 1 ? " class='first-cabin first-door'>" : " class='first-door'>" : j === door[1] ? i === door[0] ? " class='last-cabin last-door'" : " class='last-door'" : ">");
+                        res += "<div id='door_" + k + "'></div><div>" + k + "</div></div>";
+                        table.innerHTML += res;
+                    }
                 }
-            }
-            window.json = json;
-            window.num = num;
-            $("#stationinfWrap .innerData")[0].innerHTML = "";
-            $("#stationinfWrap .innerData")[0].appendChild(table);
-            //11>2>platform>0>1>0>0
-            let data = json[num[linedata.indexOf(line)][parseInt(station)-1]].inf[platformnum];
-            window.data=data;
-            window.line=line;
-            window.station=station;
-            window.platformnum=platformnum;
-            let f = data.facilities;
-            window.f = f;
-            for (let i = 0; i < f.length; i++) {
-                let res1 = f[i][1].indexOf(1) !== -1 ? "<span class='escalator'></span>" : "";
-                let res2 = typeof (f[i][3]) !== "undefined" ? "<span class=\"interchange icon-" + f[i][3] + "\"><span class=\"insideborder\">" + linedata[globallist.indexOf(f[i][3])] + "</span></span>":"";
-                res2+=f[i][2];
-                if (f[i][1].indexOf(2) !== -1)
-                    res2 += "<span class='staircase'></span>";
-                else if (f[i][1].indexOf(3) !== -1)
-                    res2 += "<span class='elevator'></span>";
-                $("#door_" + f[i][0])[0].innerHTML += "<span>" + res1 + res2 + "</span>";
-            }
-        });});
+                window.json = json;
+                window.num = num;
+                $("#stationinfWrap .innerData")[0].innerHTML = "";
+                $("#stationinfWrap .innerData")[0].appendChild(table);
+                //11>2>platform>0>1>0>0
+                let data = json[num[linedata.indexOf(line)][parseInt(station) - 1]].inf[platformnum];
+                window.data = data;
+                window.line = line;
+                window.station = station;
+                window.platformnum = platformnum;
+                let f = data.facilities;
+                window.f = f;
+                for (let i = 0; i < f.length; i++) {
+                    let res1 = f[i][1].indexOf(1) !== -1 ? "<span class='facilitiesgroup'></span><span class='escalator'></span>" : "";
+                    if (f[i][1].indexOf(2) !== -1)
+                        res1 += "<span class='staircase'></span>";
+                    else if (f[i][1].indexOf(3) !== -1)
+                        res1 += "<span class='elevator'></span>";
+                    res1 += "</span><span class='exitsname'>" + f[i][2] + "</span>";
+                    let res2 = typeof (f[i][3]) !== "undefined" ? "<span class=\"interchange icon-" + f[i][3] + "\"><span class=\"insideborder\">" + linedata[globallist.indexOf(f[i][3])] + "</span></span>" : "";
+                    $("#door_" + f[i][0])[0].innerHTML += "<span>" + res1 + res2 + "</span>";
+                }
+            });
+        });
     }
 
     function loadList() {
