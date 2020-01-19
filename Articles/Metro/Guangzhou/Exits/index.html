@@ -625,10 +625,15 @@
                 }
             }
             window.json = json;
+            window.num = num;
             $("#stationinfWrap .innerData")[0].innerHTML = "";
             $("#stationinfWrap .innerData")[0].appendChild(table);
             //11>2>platform>0>1>0>0
-            let data = json[num[linedata.indexOf(line)][parseInt(station)]];
+            let data = json[num[linedata.indexOf(line)][parseInt(station)-1]].inf[platformnum];
+            window.data=data;
+            window.line=line;
+            window.station=station;
+            window.platformnum=platformnum;
             let f = data.facilities;
             window.f = f;
             for (let i = 0; i < f.length; i++) {
@@ -636,17 +641,11 @@
                 let res2 = typeof (f[i][3]) !== "undefined" ? "<span class=\"interchange icon-" + f[i][3] + "\"><span class=\"insideborder\">" + linedata[globallist.indexOf(f[i][3])] + "</span></span>":"";
                 res2+=f[i][2];
                 if (f[i][1].indexOf(2) !== -1)
-                    res += "<span class='staircase'></span>";
+                    res2 += "<span class='staircase'></span>";
                 else if (f[i][1].indexOf(3) !== -1)
-                    res += "<span class='elevator'></span>";
+                    res2 += "<span class='elevator'></span>";
                 $("#door_" + f[i][0])[0].innerHTML += "<span>" + res1 + res2 + "</span>";
             }
-            // for (let j = 0; j < data[1].length; j++)
-            //     $("#door_" + data[1][j][0])[0].innerHTML += "<span><span class='escalator'></span> " + data[1][j][1] + "</span>";
-            // for (let j = 0; j < data[2].length; j++)
-            //     $("#door_" + data[2][j][0])[0].innerHTML += "<span><span class='elevator'></span> " + data[2][j][1] + "</span>";
-            // for (let j = 0; j < data[3].length; j++)
-            //     $("#door_" + data[3][j][0])[0].innerHTML += "<span><span class='staircase'></span> " + data[3][j][1] + "</span>";
         });});
     }
 
