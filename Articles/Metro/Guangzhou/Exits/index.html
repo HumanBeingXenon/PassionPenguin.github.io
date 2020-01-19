@@ -603,6 +603,7 @@
     function showstationinf(line, station, platformnum) {
         $("#stationinfWrap")[0].classList.add("show");
         $.getJSON("/assets/Data/stationinf.json", function (json) {
+        $.getJSON("/assets/Data/stationnum.json", function (json) {
             let table = cE("div");
             table.id = "inftable";
             let door = [["GF", "4", "6"].includes(line) ? 4 : 6, ["1", "2", "8"].includes(line) ? 5 : ["4", "5", "6"].includes(line) ? 3 : 4];
@@ -649,7 +650,7 @@
             //     $("#door_" + data[2][j][0])[0].innerHTML += "<span><span class='elevator'></span> " + data[2][j][1] + "</span>";
             // for (let j = 0; j < data[3].length; j++)
             //     $("#door_" + data[3][j][0])[0].innerHTML += "<span><span class='staircase'></span> " + data[3][j][1] + "</span>";
-        });
+        });});
     }
 
     function loadList() {
