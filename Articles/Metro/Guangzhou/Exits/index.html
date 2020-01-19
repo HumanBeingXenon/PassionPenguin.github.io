@@ -305,10 +305,6 @@
             width: 250px;
         }
 
-        #inftable > div > div > span {
-            margin: 0 10px;
-        }
-
         #inftable > div > div:nth-child(2) {
             width: 40px;
             font: 800 18px/36px sans-serif;
@@ -358,6 +354,7 @@
             background-size: 30px;
             display: inline-block;
             vertical-align: middle;
+            margin:0 5px;
         }
 
         .first-door > div:nth-child(2) {
@@ -637,12 +634,14 @@
                 let f = data.facilities;
                 window.f = f;
                 for (let i = 0; i < f.length; i++) {
-                    let res1 = f[i][1].indexOf(1) !== -1 ? "<span class='facilitiesgroup'></span><span class='escalator'></span>" : "";
-                    if (f[i][1].indexOf(2) !== -1)
+                    let res1 = "<span class='facilitiesgroup'>";
+                    if (f[i][1].indexOf(1) !== -1)
+                        res1 += "<span class='escalator'></span>";
+                    else if (f[i][1].indexOf(2) !== -1)
                         res1 += "<span class='staircase'></span>";
                     else if (f[i][1].indexOf(3) !== -1)
                         res1 += "<span class='elevator'></span>";
-                    res1 += "</span><span class='exitsname'>" + f[i][2] + "</span>";
+                    res1 += "</span><span class='exitnum'>" + f[i][2] + "</span>";
                     let res2 = typeof (f[i][3]) !== "undefined" ? "<span class=\"interchange icon-" + f[i][3] + "\"><span class=\"insideborder\">" + linedata[globallist.indexOf(f[i][3])] + "</span></span>" : "";
                     $("#door_" + f[i][0])[0].innerHTML += "<span>" + res1 + res2 + "</span>";
                 }
@@ -687,5 +686,5 @@
     }
 
     loadList();
-    choosePlatform("8", "14");
+    choosePlatform("2", "09");
 </script>
