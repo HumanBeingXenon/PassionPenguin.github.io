@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Data/lineplat.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/Data/stationinf.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Data/stationinf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/stationnum.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Data/stationnum.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +45,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-483">
-                  <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+                <state relative-caret-position="708">
+                  <caret line="309" column="7" selection-start-line="309" selection-start-column="7" selection-end-line="309" selection-end-column="7" />
                   <folding>
                     <element signature="e#4#126#0" />
                     <element signature="e#130#325#0" />
@@ -90,8 +89,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="598">
-                  <caret line="1114" column="13" selection-start-line="1114" selection-start-column="13" selection-end-line="1114" selection-end-column="13" />
+                <state relative-caret-position="283">
+                  <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -138,6 +137,7 @@
       <find>platformnum</find>
       <find>客村</find>
       <find>万胜围</find>
+      <find>嘉禾望岗</find>
     </findStrings>
     <replaceStrings>
       <replace>url=https://passionpenguin.github.io</replace>
@@ -200,13 +200,13 @@
         <option value="$PROJECT_DIR$/assets/Scripts/lib.js" />
         <option value="$PROJECT_DIR$/assets/Data/stationplat.json.js" />
         <option value="$PROJECT_DIR$/assets/Data/stationlist.json" />
-        <option value="$PROJECT_DIR$/assets/Data/stationnum.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationplat.json" />
         <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
         <option value="$PROJECT_DIR$/assets/Data/stationinf.md" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" />
         <option value="$PROJECT_DIR$/assets/Data/lineplat.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationinf.json" />
+        <option value="$PROJECT_DIR$/assets/Data/stationnum.json" />
       </list>
     </option>
   </component>
@@ -442,7 +442,7 @@
       <workItem from="1579356692574" duration="2087000" />
       <workItem from="1579362841615" duration="1073000" />
       <workItem from="1579364099475" duration="79000" />
-      <workItem from="1579441057994" duration="2889000" />
+      <workItem from="1579441057994" duration="3865000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1577364092478</created>
@@ -626,11 +626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579337120027</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update">
+      <created>1579444894673</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579444894673</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139389000" />
+    <option name="totallyTimeSpent" value="140365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -971,8 +978,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="708">
+          <caret line="309" column="7" selection-start-line="309" selection-start-column="7" selection-end-line="309" selection-end-column="7" />
           <folding>
             <element signature="e#4#126#0" />
             <element signature="e#130#325#0" />
@@ -986,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="1114" column="13" selection-start-line="1114" selection-start-column="13" selection-end-line="1114" selection-end-column="13" />
+        <state relative-caret-position="283">
+          <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
         </state>
       </provider>
     </entry>
