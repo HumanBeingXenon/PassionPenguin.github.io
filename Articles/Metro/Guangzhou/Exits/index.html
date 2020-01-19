@@ -213,6 +213,11 @@
             top: 0;
             right: 0;
             z-index: 1001;
+            border: solid #5e5e5e80;
+            border-width: 0 0 5px 5px;
+            border-radius: 0 0 0 10px;
+            padding: 2px;
+            font-size: 20px;
         }
 
         #stationlistWrap, #stationinfWrap {
@@ -354,7 +359,7 @@
             background-size: 30px;
             display: inline-block;
             vertical-align: middle;
-            margin:0 5px;
+            margin: 0 5px;
         }
 
         .first-door > div:nth-child(2) {
@@ -391,14 +396,14 @@
         }
 
         .interchange {
-            border-width: 2px;
-            border-style: solid;
             border-radius: 10px;
             width: fit-content;
             height: 33px;
             display: inline-block;
             font: 600 16px/25px Raleway;
-            padding: 2px;
+            padding: 0;
+            border-width: 4px;
+            border-style: solid;
         }
 
         .exitnum {
@@ -642,7 +647,7 @@
                     else if (f[i][1].indexOf(3) !== -1)
                         res1 += "<span class='elevator'></span>";
                     res1 += "</span><span class='exitnum'>" + f[i][2] + "</span>";
-                    let res2 = typeof (f[i][3]) !== "undefined" ? "<span class=\"interchange icon-" + f[i][3] + "\"><span class=\"insideborder\">" + linedata[globallist.indexOf(f[i][3])] + "</span></span>" : "";
+                    let res2 = typeof (f[i][3]) !== "undefined" ? "<span class=\"font-" + f[i][3] + " border-" + f[i][3] + " interchange\"><span class=\"insideborder\">" + linedata[globallist.indexOf(f[i][3])] + "</span></span>" : "";
                     $("#door_" + f[i][0])[0].innerHTML += "<span>" + res1 + res2 + "</span>";
                 }
             });

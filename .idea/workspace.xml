@@ -21,12 +21,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="490">
-                  <caret line="644" column="84" selection-start-line="644" selection-start-column="84" selection-end-line="644" selection-end-column="84" />
+                <state relative-caret-position="467">
+                  <caret line="217" column="35" selection-start-line="217" selection-start-column="35" selection-end-line="217" selection-end-column="35" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1579450665982" expanded="true" signature="19454:20756" ph="..." />
+                    <marker date="1579452191088" expanded="true" signature="19571:20873" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -61,8 +61,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="39123">
-                  <caret line="1861" column="17" selection-start-line="1861" selection-start-column="17" selection-end-line="1861" selection-end-column="17" />
+                <state relative-caret-position="121">
+                  <caret line="1890" column="32" lean-forward="true" selection-start-line="1890" selection-start-column="32" selection-end-line="1890" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -74,12 +74,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="11760">
-                  <caret line="609" column="22" selection-start-line="609" selection-start-column="22" selection-end-line="609" selection-end-column="22" />
+                <state relative-caret-position="11697">
+                  <caret line="611" column="22" selection-start-line="611" selection-start-column="22" selection-end-line="611" selection-end-column="22" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1579450665982" expanded="true" signature="19454:20756" ph="..." />
+                    <marker date="1579452191088" expanded="true" signature="19571:20873" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -88,8 +88,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="474">
-                  <caret line="1078" column="27" selection-start-line="1078" selection-start-column="27" selection-end-line="1078" selection-end-column="27" />
+                <state relative-caret-position="495">
+                  <caret line="1078" column="53" selection-start-line="1078" selection-end-line="1079" />
                 </state>
               </provider>
             </entry>
@@ -108,9 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>[</find>
-      <find>url=</find>
-      <find>button</find>
       <find>一</find>
       <find>wrap.innerHTML</find>
       <find>'</find>
@@ -138,6 +135,9 @@
       <find>万胜围</find>
       <find>嘉禾望岗</find>
       <find>station</find>
+      <find>s</find>
+      <find>exit</find>
+      <find>256</find>
     </findStrings>
     <replaceStrings>
       <replace>url=https://passionpenguin.github.io</replace>
@@ -201,11 +201,11 @@
         <option value="$PROJECT_DIR$/assets/Data/stationplat.json.js" />
         <option value="$PROJECT_DIR$/assets/Data/stationlist.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationplat.json" />
-        <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
         <option value="$PROJECT_DIR$/assets/Data/stationinf.md" />
         <option value="$PROJECT_DIR$/assets/Data/lineplat.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationinf.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationnum.json" />
+        <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" />
       </list>
     </option>
@@ -442,7 +442,7 @@
       <workItem from="1579356692574" duration="2087000" />
       <workItem from="1579362841615" duration="1073000" />
       <workItem from="1579364099475" duration="79000" />
-      <workItem from="1579441057994" duration="6282000" />
+      <workItem from="1579441057994" duration="7786000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1577364092478</created>
@@ -668,11 +668,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579450570988</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add">
+      <created>1579450677266</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1579450677267</updated>
+    </task>
+    <task id="LOCAL-00034" summary="ver2 updated.">
+      <created>1579451516951</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1579451516951</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142782000" />
+    <option name="totallyTimeSpent" value="144286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -762,7 +776,9 @@
     <MESSAGE value="changes." />
     <MESSAGE value="remove comments" />
     <MESSAGE value="remove unused previous version codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unused previous version codes" />
+    <MESSAGE value="add" />
+    <MESSAGE value="ver2 updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="ver2 updated." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Example.html">
@@ -989,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39123">
-          <caret line="1861" column="17" selection-start-line="1861" selection-start-column="17" selection-end-line="1861" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
@@ -1018,21 +1027,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/PenguinUI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="1890" column="32" lean-forward="true" selection-start-line="1890" selection-start-column="32" selection-end-line="1890" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="1078" column="27" selection-start-line="1078" selection-start-column="27" selection-end-line="1078" selection-end-column="27" />
+        <state relative-caret-position="495">
+          <caret line="1078" column="53" selection-start-line="1078" selection-end-line="1079" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="644" column="84" selection-start-line="644" selection-start-column="84" selection-end-line="644" selection-end-column="84" />
+        <state relative-caret-position="467">
+          <caret line="217" column="35" selection-start-line="217" selection-start-column="35" selection-end-line="217" selection-end-column="35" />
           <folding>
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <marker date="1579450665982" expanded="true" signature="19454:20756" ph="..." />
+            <marker date="1579452191088" expanded="true" signature="19571:20873" ph="..." />
           </folding>
         </state>
       </provider>
