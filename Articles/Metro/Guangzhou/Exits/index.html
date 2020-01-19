@@ -663,9 +663,9 @@
                     text += "<div><span>主线</span>";
                     for (let j = 0; j < json[i].station[0].length; j++)
                         text += "<a id='" + json[i].station[0][j][0] + "'><div class=\"StationNumber border-" + json[i].globalname + "\"><span>" + linename + "</span><span>" + (j < 9 ? "0" + (j + 1) : (j + 1)) + "</span></div><span>" + json[i].station[0][j][0] + "</span></a>";
-                    text += "</div><div><span>支线</span>";
-                    for (let j = 0; j < json[i].station[1].length; j++)
-                        text += "<a id='" + json[i].station[1][j][0] + "'><div class=\"StationNumber border-" + json[i].globalname + "\"><span>" + linename + "</span><span>" + (Number(json[i].branch) + j) + "</span></div><span>" + json[i].station[1][j][0] + "</span></a>";
+                    text += "</div><div><span>支线</span><a id='" + json[i].station[1][0][0] + "'><div class=\"StationNumber border-" + json[i].globalname + "\"><span>" + linename + "</span><span>" + Number(json[i].branch) + "</span></div><span>" + json[i].station[1][0][0] + "</span></a>";
+                    for (let j = 1; j < json[i].station[1].length; j++)
+                        text += "<a id='" + json[i].station[1][j][0] + "'><div class=\"StationNumber border-" + json[i].globalname + "\"><span>" + linename + "</span><span>" + (json[i].station[0].length + j) + "</span></div><span>" + json[i].station[1][j][0] + "</span></a>";
                     text += "</div>";
                 } else {
                     text += "<div>";
