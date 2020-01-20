@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/lineplat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/stationnum.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Data/stationnum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/stationplat.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Data/stationplat.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +20,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.65111274">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="286" column="31" lean-forward="true" selection-start-line="286" selection-start-column="31" selection-end-line="286" selection-end-column="31" />
+                <state relative-caret-position="-496">
+                  <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -33,10 +35,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/Data/lineplat.json">
+            <entry file="file://$PROJECT_DIR$/assets/Data/stationlist.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="1" selection-start-column="1" selection-end-column="1" />
+                <state relative-caret-position="105">
+                  <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -44,8 +46,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3528">
-                  <caret line="309" column="7" selection-start-line="309" selection-start-column="7" selection-end-line="309" selection-end-column="7" />
+                <state relative-caret-position="410">
+                  <caret line="297" column="8" lean-forward="true" selection-start-line="297" selection-start-column="8" selection-end-line="297" selection-end-column="8" />
                   <folding>
                     <element signature="e#4#126#0" />
                     <element signature="e#130#325#0" />
@@ -53,6 +55,22 @@
                     <element signature="e#577#773#0" />
                     <element signature="e#987#1271#0" />
                     <element signature="e#1275#1356#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/Data/stationplat.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="610">
+                  <caret line="1131" column="8" selection-start-line="1131" selection-start-column="8" selection-end-line="1131" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#5480#5552#0" />
+                    <element signature="e#5556#5628#0" />
+                    <element signature="e#5632#5704#0" />
+                    <element signature="e#5708#5780#0" />
+                    <element signature="e#5784#5924#0" />
                   </folding>
                 </state>
               </provider>
@@ -74,7 +92,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="11571">
+                <state relative-caret-position="12180">
                   <caret line="628" column="22" selection-start-line="628" selection-start-column="22" selection-end-line="628" selection-end-column="22" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -88,8 +106,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="1078" column="53" selection-start-line="1078" selection-end-line="1079" />
+                <state relative-caret-position="275">
+                  <caret line="527" column="18" lean-forward="true" selection-start-line="527" selection-start-column="18" selection-end-line="527" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -132,12 +150,12 @@
       <find>platformChoser</find>
       <find>platformnum</find>
       <find>客村</find>
-      <find>万胜围</find>
       <find>嘉禾望岗</find>
       <find>station</find>
       <find>s</find>
       <find>exit</find>
       <find>256</find>
+      <find>万胜围</find>
     </findStrings>
     <replaceStrings>
       <replace>url=https://passionpenguin.github.io</replace>
@@ -200,13 +218,13 @@
         <option value="$PROJECT_DIR$/assets/Scripts/lib.js" />
         <option value="$PROJECT_DIR$/assets/Data/stationplat.json.js" />
         <option value="$PROJECT_DIR$/assets/Data/stationlist.json" />
-        <option value="$PROJECT_DIR$/assets/Data/stationplat.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationinf.md" />
         <option value="$PROJECT_DIR$/assets/Data/lineplat.json" />
         <option value="$PROJECT_DIR$/assets/Data/stationinf.json" />
-        <option value="$PROJECT_DIR$/assets/Data/stationnum.json" />
         <option value="$PROJECT_DIR$/assets/styles/PenguinUI.css" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" />
+        <option value="$PROJECT_DIR$/assets/Data/stationnum.json" />
+        <option value="$PROJECT_DIR$/assets/Data/stationplat.json" />
       </list>
     </option>
   </component>
@@ -220,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,7 +329,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,7 +461,8 @@
       <workItem from="1579362841615" duration="1073000" />
       <workItem from="1579364099475" duration="79000" />
       <workItem from="1579441057994" duration="7934000" />
-      <workItem from="1579480299735" duration="3293000" />
+      <workItem from="1579480299735" duration="3945000" />
+      <workItem from="1579493839843" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1577364092478</created>
@@ -690,11 +709,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579452202667</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fix bugs: cracked while loading&#10;(issued by Percy1234)">
+      <created>1579486529891</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1579486529891</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147727000" />
+    <option name="totallyTimeSpent" value="148625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -787,7 +813,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="ver2 updated." />
     <MESSAGE value="ui beautify" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui beautify" />
+    <MESSAGE value="fix bugs: cracked while loading&#10;(issued by Percy1234)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs: cracked while loading&#10;(issued by Percy1234)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Example.html">
@@ -949,16 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Data/Stations.data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_坑口.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -983,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Data/stationlist.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -997,42 +1007,6 @@
             <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Data/stationplat.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8846">
-          <caret line="2387" column="9" selection-start-line="2387" selection-start-column="9" selection-end-line="2387" selection-end-column="9" />
-          <folding>
-            <element signature="e#5480#5552#0" />
-            <element signature="e#5556#5628#0" />
-            <element signature="e#5632#5704#0" />
-            <element signature="e#5708#5780#0" />
-            <element signature="e#5784#5924#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Data/lineplat.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="309" column="7" selection-start-line="309" selection-start-column="7" selection-end-line="309" selection-end-column="7" />
-          <folding>
-            <element signature="e#4#126#0" />
-            <element signature="e#130#325#0" />
-            <element signature="e#329#573#0" />
-            <element signature="e#577#773#0" />
-            <element signature="e#987#1271#0" />
-            <element signature="e#1275#1356#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,19 +1019,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Data/stationinf.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="1078" column="53" selection-start-line="1078" selection-end-line="1079" />
+        <state relative-caret-position="275">
+          <caret line="527" column="18" lean-forward="true" selection-start-line="527" selection-start-column="18" selection-end-line="527" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Data/lineplat.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Data/Stations.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="286" column="31" lean-forward="true" selection-start-line="286" selection-start-column="31" selection-end-line="286" selection-end-column="31" />
+        <state relative-caret-position="-496">
+          <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
           <folding>
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <marker date="1579486408619" expanded="true" signature="20157:21459" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Data/stationlist.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Data/stationnum.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="297" column="8" lean-forward="true" selection-start-line="297" selection-start-column="8" selection-end-line="297" selection-end-column="8" />
+          <folding>
+            <element signature="e#4#126#0" />
+            <element signature="e#130#325#0" />
+            <element signature="e#329#573#0" />
+            <element signature="e#577#773#0" />
+            <element signature="e#987#1271#0" />
+            <element signature="e#1275#1356#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Data/stationplat.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="1131" column="8" selection-start-line="1131" selection-start-column="8" selection-end-line="1131" selection-end-column="8" />
+          <folding>
+            <element signature="e#5480#5552#0" />
+            <element signature="e#5556#5628#0" />
+            <element signature="e#5632#5704#0" />
+            <element signature="e#5708#5780#0" />
+            <element signature="e#5784#5924#0" />
           </folding>
         </state>
       </provider>
