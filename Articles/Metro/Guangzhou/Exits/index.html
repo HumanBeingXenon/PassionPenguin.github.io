@@ -597,15 +597,11 @@
         $.getJSON("/assets/Data/stationnum.json", function (json) {
             $.getJSON("/assets/Data/stationplat.json", function (res) {
                 let a = "";
-                window.json = json;
-                window.res = res;
                 let inf = res[json[linedata.indexOf(line)][parseInt(station) - 1]];
-                console.log(inf);
                 for (let i = 0; i < inf.length; i++) {
                     a += "<a class='dropdown-item' href='javascript:void(0)' onclick='showstationinf(\"" + line + "\",\"" + station + "\"," + i + ")'>";
                     let b = inf[i][0];
                     let rd;
-                    console.log(b);
                     if (b === "7")
                         rd = "仅供下车";
                     else if (b === "8")
@@ -616,7 +612,6 @@
                         rd = "不启用（快车越行或备用）";
                     else rd = routedirection[linedata.indexOf(inf[i][1])][b - 1];
                     let globalname = globallist[linedata.indexOf(inf[i][1])];
-                    console.log(globalname);
                     a += "<i class='platformnum font-" + globalname + " border-" + globalname + "'><span>" + (i + 1) + "</span></i><span class='vertical-middle'> 站台 " + rd + "</span></a>";
                 }
                 $("#platformChoserWrap .innerData")[0].innerHTML = a;
@@ -654,10 +649,6 @@
                 $("#stationinfWrap .innerData")[0].appendChild(table);
                 //11>2>platform>0>1>0>0
                 let data = json[num[linedata.indexOf(line)][parseInt(station) - 1]].inf[platformnum];
-                window.data = data;
-                window.line = line;
-                window.station = station;
-                window.platformnum = platformnum;
                 let f = data.facilities;
                 window.f = f;
                 for (let i = 0; i < f.length; i++) {
@@ -713,5 +704,4 @@
     }
 
     loadList();
-    choosePlatform("2", "09");
 </script>
