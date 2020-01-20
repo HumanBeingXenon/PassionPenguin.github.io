@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805f0b0d-df21-4c65-b9c4-da5ebbb9f1ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Data/stationplat.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Data/stationplat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,7 +62,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/Data/stationplat.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="529">
@@ -75,6 +74,15 @@
                     <element signature="e#5708#5780#0" />
                     <element signature="e#5784#5924#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="21">
+                  <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -177,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_体育中心.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/GZ_西门口.html" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Routemap/Line1.html" />
         <option value="$PROJECT_DIR$/cut.html" />
@@ -228,6 +235,7 @@
         <option value="$PROJECT_DIR$/assets/Data/stationnum.json" />
         <option value="$PROJECT_DIR$/Articles/Metro/Guangzhou/Exits/index.html" />
         <option value="$PROJECT_DIR$/assets/Data/stationplat.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -465,7 +473,7 @@
       <workItem from="1579364099475" duration="79000" />
       <workItem from="1579441057994" duration="7934000" />
       <workItem from="1579480299735" duration="3945000" />
-      <workItem from="1579493839843" duration="3222000" />
+      <workItem from="1579493839843" duration="3689000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1577364092478</created>
@@ -754,17 +762,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579496392639</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="fixed issue - #3">
+      <created>1579497929865</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1579497929865</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151601000" />
+    <option name="totallyTimeSpent" value="152068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948928" visible="true" weight="0.16033755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49948928" visible="true" weight="0.16033755" />
       <window_info id="Structure" order="1" sideWeight="0.50051075" side_tool="true" weight="0.13539822" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -779,7 +794,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297062" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="11" weight="0.3297062" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.03264418" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.03264418" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -832,7 +847,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upd" />
     <MESSAGE value="fix bugs[Yuancun]" />
     <MESSAGE value="temp upd since 19-12-28" />
     <MESSAGE value="upd 同福西 文化公园" />
@@ -857,7 +871,8 @@
     <MESSAGE value="files updated" />
     <MESSAGE value="remove debug console.log" />
     <MESSAGE value="collapse Platformchoser at first" />
-    <option name="LAST_COMMIT_MESSAGE" value="collapse Platformchoser at first" />
+    <MESSAGE value="fixed issue - #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue - #3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Articles/Metro/Example.html">
@@ -1134,6 +1149,13 @@
             <element signature="e#5708#5780#0" />
             <element signature="e#5784#5924#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
