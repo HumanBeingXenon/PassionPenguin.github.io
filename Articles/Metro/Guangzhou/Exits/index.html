@@ -1228,6 +1228,14 @@
         $(".dropdown-line a").click(function () {
             $("#selectLineButton")[0].innerHTML = this.innerHTML;
         });
+        $("#content_0")[0].classList.add("show");
+        let d = $("#stationlist a");
+        for (let i = 0; i < d.length; i++) {
+            d[i].onclick = function () {
+                let a = this.children[0].children;
+                choosePlatform(a[0].innerText, a[1].innerText);
+            }
+        }
     });
 
     let linedata = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "13", "14", "21", "GF", "APM"];
@@ -1288,8 +1296,9 @@
                 }
                 window.json = json;
                 window.num = num;
-                $("#stationinfWrap .innerData")[0].innerHTML = "";
-                $("#stationinfWrap .innerData")[0].appendChild(table);
+                let d = $("#stationinfWrap .innerData")[0];
+                d.innerHTML = "";
+                d.appendChild(table);
                 //11>2>platform>0>1>0>0
                 let data = json[num[linedata.indexOf(line)][parseInt(station) - 1]].inf[platformnum];
                 let f = data.facilities;
@@ -1338,16 +1347,6 @@
     //         }
     //         $(".innerData")[0].innerHTML = text + "</div>";
     //         window.listtext = text + "</div>";
-    //         $("#content_0")[0].classList.add("show");
-    //         let d = $("#stationlist a");
-    //         for (let i = 0; i < d.length; i++) {
-    //             d[i].onclick = function () {
-    //                 let a = this.children[0].children;
-    //                 choosePlatform(a[0].innerText, a[1].innerText);
-    //             }
-    //         }
     //     });
     // }
-
-    loadList();
 </script>
