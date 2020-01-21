@@ -56,18 +56,21 @@
         }
 
         .bg-image {
-            background: url("/assets/Images/Metro/Guangzhou/Exits/Chigang.png") no-repeat 0 0;
-            background-size: 100%;
             position: absolute;
-            top: 15vh;
-            width: 100%;
-            height: 62.5vw;
+            top: 0;
+            width: 500px;
+            height: 800px;
+            left: calc(50vw - 250px);
+            z-index: 1;
         }
 
-        .bg-color {
-            height: 15vh;
-            background: #cce3f1;
-            width: 100%;
+        .data-color {
+            background: #28351c;
+            bottom: -1px;
+            left: -1px;
+            height: calc(100vh - 800px + 2px);
+            position: fixed;
+            width: calc(100vw + 2px);
         }
 
         html, body {
@@ -78,7 +81,7 @@
 
         .navi.card {
             position: absolute;
-            top: calc(15vh + 52.5vw);
+            top: calc(66.6vh - 70px);
             left: 50%;
             transform: translate(-50%);
             width: fit-content;
@@ -99,7 +102,7 @@
             display: inline-block;
         }
 
-        .icongroup:nth-child(3) {
+        .icongroup:nth-child(5) {
             margin-top: 10px;
             width: 300px;
         }
@@ -131,22 +134,17 @@
             background-image: url("/assets/Images/Metro/Guangzhou/Exits/Wiki.png");
         }
 
+        .icongroup .copyright {
+            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Copyright.png");
+        }
+
+        .icongroup .help {
+            background-image: url("/assets/Images/Metro/Guangzhou/Exits/question.png");
+        }
+
         .card-body {
             width: 350px;
             margin: 0 auto;
-        }
-
-        .train {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            background-image: url("/assets/Images/Metro/Guangzhou/Exits/A6.png");
-            background-size: auto 100%;
-            background-color: transparent;
-            background-repeat: no-repeat;
-            background-position: 100% 0;
-            height: 36px;
-            width: 100%;
         }
 
         .copyright-info {
@@ -170,16 +168,6 @@
             top: 40px;
             right: 40px;
             width: 120px;
-        }
-
-        [data-target='#copyrightPage'] {
-            background: #5e5e5e;
-            position: absolute;
-            bottom: 72px;
-            text-align: center;
-            width: 150px;
-            left: 50%;
-            transform: translate(-50%);
         }
 
         [data-target='#copyrightPage']:hover, [data-target='#copyrightPage']:focus {
@@ -466,9 +454,8 @@
 <body>
 <div class="mainscreen show" id="mainScreen">
     <img class="logo" src="/assets/Images/Metro/Guangzhou/Exits/GuangzhouMTR.png" alt="GZMTR LOGO">
-    <div class="bg-color"></div>
-    <div class="bg-image"></div>
-    <div class="train"></div>
+    <img class="bg-image" src="/assets/Images/Metro/Guangzhou/Exits/Banner.png" alt="background">
+    <div class="data-color"></div>
     <div class="navi card">
         <div class="card-body">
             <div class="icongroup" data-target="#stationlistWrap" data-toggle="collapse" role="button">
@@ -478,10 +465,22 @@
                         <span>出入口指南</span><span>Exit Guide</span></div>
                 </div>
             </div>
-            <div class="icongroup" data-toggle="collapse" role="button" data-target="#routemapWrap">
+            <div class="icongroup" data-toggle="collapse" role="button" data-target="?routemapWrap">
                 <div class="wrap-center">
                     <div class="navi"></div>
                     <div class="text"><span>运行地图</span><span>Routemap</span></div>
+                </div>
+            </div>
+            <div class="icongroup" data-toggle="collapse" role="button" data-target="#copyrightPage">
+                <div class="wrap-center">
+                    <div class="copyright"></div>
+                    <div class="text"><span>版权信息</span><span>Copyright</span></div>
+                </div>
+            </div>
+            <div class="icongroup" data-toggle="collapse" role="button" data-target="#contactPage">
+                <div class="wrap-center">
+                    <div class="help"></div>
+                    <div class="text"><span>反馈联系</span><span>Contact Us</span></div>
                 </div>
             </div>
             <div class="icongroup" data-toggle="collapse" role="button" data-target="?wiki">
@@ -504,7 +503,6 @@
         <button class="btn" data-toggle="collapse" data-target="#copyrightPage">× CLOSE ×</button>
     </div>
 </div>
-<button class="btn" data-toggle="collapse" data-target="#copyrightPage">显示版权信息</button>
 <div id="stationlistWrap" class="collapse">
     <div class="inner">
         <div class="selectLine"><span>选择线路：</span>
@@ -566,6 +564,13 @@
             </div>
         </div>
         <span data-toggle="collapse" data-target="#platformChoserWrap" data-action="close">×</span>
+    </div>
+</div>
+<div class="card card-body collapse" id="contactPage">
+    <div class="inner">
+        <p>GitHub issues Report: <a href="https://github.com/PassionPenguin/PassionPenguin.github.io/issues">Issues -
+            GitHub</a></p>
+        <p>Contact Us: <a href="mailto:penguin.zhang@qq.com">via Mail</a></p>
     </div>
 </div>
 </body>
