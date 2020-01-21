@@ -105,6 +105,8 @@ html, body {
     --GFL: rgb(180, 197, 48);
     --GZAPM: #00B2E3;
     --GZTHZ1: #8bbc50;
+    --FSTGM1: rgb(147,183,147);
+    --GZTHP1: rgb(75,37,26);
 }
 
 .icon-GZ {
@@ -243,6 +245,12 @@ html, body {
 .font-THZ1-GZ {
     color: var(--GZTHZ1);
 }
+.font-TGM1-FS {
+    color: var(--FSTGM1);
+}
+.font-THP1-GZ {
+    color: var(--GZTHP1);
+}
 
 .font-Line-GF {
     color: var(--GFL);
@@ -361,6 +369,12 @@ html, body {
 .icon-THZ1-GZ {
     background: var(--GZTHZ1);
 }
+.icon-TGM1-FS {
+    background: var(--FSTGM1);
+}
+.icon-THP1-GZ {
+    background: var(--GZTHP1);
+}
 
 .icon-LineUN-GZ {
     background: var(--GZLUN);
@@ -473,6 +487,12 @@ html, body {
 
 .border-THZ1-GZ {
     border-color: var(--GZTHZ1);
+}
+.border-TGM1-FS {
+    border-color: var(--FSTGM1);
+}
+.border-THP1-GZ {
+    border-color: var(--GZTHP1);
 }
 
 .border-LineUN-GZ {
