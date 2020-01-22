@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "./Bootstrap.min.css";
+@import "Bootstrap.min.css";
 /* Made by Penguin
     Penguin UI stable version, updated Dec 7th
 */
@@ -1907,22 +1907,6 @@ th {
 .vertical-middle {
     display: inline-block;
     vertical-align: middle;
-}
-
-.direction[data-direction="l"] {
-    width: 20px;
-    height: 30px;
-    position: absolute;
-    left: 10px;
-    background: url("/assets/Images/Library/arrow_left.svg") no-repeat 0 4px;
-}
-
-.direction[data-direction="r"] {
-    width: 20px;
-    height: 30px;
-    position: absolute;
-    right: 10px;
-    background: url("/assets/Images/Library/arrow_right.svg") no-repeat 0 4px;
 }
 
 .stationinf {

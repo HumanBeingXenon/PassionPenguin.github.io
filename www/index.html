@@ -7,8 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>出站指南</title>
-    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/styles/PenguinUI.css" rel="stylesheet">
+    <link href="styles/Bootstrap.min.css" rel="stylesheet">
+    <link href="styles/PenguinUI.css" rel="stylesheet">
     <style>
         body.showinf #stationinfWrap {
             position: fixed;
@@ -60,7 +60,7 @@
             width: 500px;
             height: 800px;
             left: calc(50vw - 250px);
-            z-index: 1;
+            z-index: 0;
         }
 
         .data-color {
@@ -122,23 +122,23 @@
         }
 
         .icongroup .exit {
-            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Exit.png");
+            background-image: url("Images/Exit.png");
         }
 
         .icongroup .navi {
-            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Navigation.png");
+            background-image: url("Images/Navigation.png");
         }
 
         .icongroup .wiki {
-            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Wiki.png");
+            background-image: url("Images/Wiki.png");
         }
 
         .icongroup .copyright {
-            background-image: url("/assets/Images/Metro/Guangzhou/Exits/Copyright.png");
+            background-image: url("Images/Copyright.png");
         }
 
         .icongroup .help {
-            background-image: url("/assets/Images/Metro/Guangzhou/Exits/question.png");
+            background-image: url("Images/question.png");
         }
 
         .card-body {
@@ -314,15 +314,15 @@
         }
 
         .escalator {
-            background: url("/assets/Images/Metro/Guangzhou/Exits/escalator.png") no-repeat transparent;
+            background: url("Images/escalator.png") no-repeat transparent;
         }
 
         .staircase {
-            background: url("/assets/Images/Metro/Guangzhou/Exits/staircase.png") no-repeat transparent;
+            background: url("Images/staircase.png") no-repeat transparent;
         }
 
         .elevator {
-            background: url("/assets/Images/Metro/Guangzhou/Exits/elevator.png") no-repeat transparent;
+            background: url("Images/elevator.png") no-repeat transparent;
         }
 
         [class^="escalator"], [class^="staircase"], .elevator {
@@ -408,7 +408,7 @@
         }
 
         #legendWrap .inf {
-            background: url("/assets/Images/Metro/Guangzhou/Exits/information.png") #fff no-repeat;
+            background: url("Images/information.png") #fff no-repeat;
             width: 100vw;
             height: 60vw;
             background-size: 100vw 60vw;
@@ -458,7 +458,7 @@
 </head>
 <body>
 <div class="mainscreen show" id="mainScreen">
-    <img class="bg-image" src="/assets/Images/Metro/Guangzhou/Exits/Banner.png" alt="background">
+    <img class="bg-image" src="Images/Banner.png" alt="background">
     <div class="data-color"></div>
     <div class="navi card">
         <div class="card-body">
@@ -1253,7 +1253,7 @@
 </div>
 </body>
 </html>
-<script src="/assets/Scripts/lib.js"></script>
+<script src="Scripts/lib.js"></script>
 <script>
     $(function () {
         $("[data-target='#legendWrap']").click(function () {
@@ -1285,8 +1285,8 @@
     function choosePlatform(line, station) {
         console.log(line, station);
         $("#platformChoserWrap")[0].classList.add("show");
-        $.getJSON("/assets/Data/stationnum.json", function (json) {
-            $.getJSON("/assets/Data/stationplat.json", function (res) {
+        $.getJSON("Data/stationnum.json", function (json) {
+            $.getJSON("Data/stationplat.json", function (res) {
                 let a = "";
                 let inf = res[json[linedata.indexOf(line)][parseInt(station) - 1]];
                 for (let i = 0; i < inf.length; i++) {
@@ -1312,8 +1312,8 @@
 
     function showstationinf(line, station, platformnum) {
         $("#stationinfWrap")[0].classList.add("show");
-        $.getJSON("/assets/Data/stationinf.json", function (json) {
-            $.getJSON("/assets/Data/stationnum.json", function (num) {
+        $.getJSON("Data/stationinf.json", function (json) {
+            $.getJSON("Data/stationnum.json", function (num) {
                 json = json.inf;
                 let table = cE("div");
                 table.id = "inftable";
@@ -1363,7 +1363,7 @@
 
     // Unused Code For Mobile Usage.
     // function loadList() {
-    //     $.getJSON("/assets/Data/stationlist.json", function (json) {
+    //     $.getJSON("Data/stationlist.json", function (json) {
     //         var text = "<div id='stationlist'>";
     //         for (let i = 0; i < json.length; i++) {
     //             let linename = json[i].globalname === "Line-GF" ? "GF" : json[i].globalname.search("Line") !== -1 ? json[i].globalname.substring(4, json[i].globalname.search("-")) : json[i].globalname.substring(0, json[i].globalname.search("-"));
