@@ -122,15 +122,15 @@
         }
 
         .icongroup .exit {
-            background-image: url("Images/Exit.png");
+            background-image: url("Images/Exit@Light.png");
         }
 
         .icongroup .navi {
-            background-image: url("Images/Navigation.png");
+            background-image: url("Images/Navigation@Light.png");
         }
 
         .icongroup .wiki {
-            background-image: url("Images/Wiki.png");
+            background-image: url("Images/Wiki@Light.png");
         }
 
         .icongroup .copyright {
@@ -139,6 +139,86 @@
 
         .icongroup .help {
             background-image: url("Images/question.png");
+        }
+
+        .escalator {
+            background: url("Images/escalator@Light.png") no-repeat transparent;
+        }
+
+        .staircase {
+            background: url("Images/staircase@Light.png") no-repeat transparent;
+        }
+
+        .elevator {
+            background: url("Images/elevator@Light.png") no-repeat transparent;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+            }
+
+            .icongroup .exit {
+                background-image: url("Images/Exit@Dark.png");
+            }
+
+            .icongroup .navi {
+                background-image: url("Images/Navigation@Dark.png");
+            }
+
+            .icongroup .wiki {
+                background-image: url("Images/Wiki@Dark.png");
+            }
+
+            .escalator {
+                background: url("Images/escalator@Dark.png") no-repeat transparent;
+            }
+
+            .staircase {
+                background: url("Images/staircase@Dark.png") no-repeat transparent;
+            }
+
+            .elevator {
+                background: url("Images/elevator@Dark.png") no-repeat transparent;
+            }
+
+            body, .card, .icongroup {
+                background: #5e5e5e;
+                color: #fff;
+            }
+        }
+
+        /* Fallback for older browsers or manual mode */
+        body.dark, body.dark .card, body.dark .icongroup {
+            background: #5e5e5e;
+            color: #fff;
+        }
+
+        body.dark .card {
+            background: #5e5e5e;
+        }
+
+        body.dark .icongroup .exit {
+            background-image: url("Images/Exit@Dark.png");
+        }
+
+        body.dark .icongroup .navi {
+            background-image: url("Images/Navigation@Dark.png");
+        }
+
+        body.dark .icongroup .wiki {
+            background-image: url("Images/Wiki@Dark.png");
+        }
+
+        body.dark .escalator {
+            background: url("Images/escalator@Dark.png") no-repeat transparent;
+        }
+
+        body.dark .staircase {
+            background: url("Images/staircase@Dark.png") no-repeat transparent;
+        }
+
+        body.dark .elevator {
+            background: url("Images/elevator@Dark.png") no-repeat transparent;
         }
 
         .card-body {
@@ -311,18 +391,6 @@
 
         #inftable > div:last-child > div:nth-child(2) {
             border: 3px solid #5e5e5e99;
-        }
-
-        .escalator {
-            background: url("Images/escalator.png") no-repeat transparent;
-        }
-
-        .staircase {
-            background: url("Images/staircase.png") no-repeat transparent;
-        }
-
-        .elevator {
-            background: url("Images/elevator.png") no-repeat transparent;
         }
 
         [class^="escalator"], [class^="staircase"], .elevator {
