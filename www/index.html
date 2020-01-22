@@ -168,50 +168,6 @@
             background: url("Images/elevator@Light.png") no-repeat transparent;
         }
 
-        @media (prefers-color-scheme: dark) {
-            :root {
-            }
-
-            .escalator {
-                background: url("Images/escalator@Dark.png") no-repeat transparent;
-            }
-
-            .staircase {
-                background: url("Images/staircase@Dark.png") no-repeat transparent;
-            }
-
-            .elevator {
-                background: url("Images/elevator@Dark.png") no-repeat transparent;
-            }
-
-            body, .card, .icongroup {
-                background: #5e5e5e;
-                color: #fff;
-            }
-        }
-
-        /* Fallback for older browsers or manual mode */
-        body.dark, body.dark .card, body.dark .icongroup {
-            background: #5e5e5e;
-            color: #fff;
-        }
-
-        body.dark .card {
-            background: #5e5e5e;
-        }
-
-        body.dark .escalator {
-            background: url("Images/escalator@Dark.png") no-repeat transparent;
-        }
-
-        body.dark .staircase {
-            background: url("Images/staircase@Dark.png") no-repeat transparent;
-        }
-
-        body.dark .elevator {
-            background: url("Images/elevator@Dark.png") no-repeat transparent;
-        }
-
         .card-body {
             width: 350px;
             margin: 0 auto;
@@ -251,7 +207,7 @@
             padding: 20px;
             z-index: 999;
             overflow-y: scroll;
-            border: 5px solid #5e5e5e99;
+            border: 5px solid #5e5e5e;
         }
 
         #stationlistWrap.show, #stationinfWrap.show, #platformChoserWrap.show, #legendWrap.show {
@@ -281,10 +237,10 @@
         }
 
         #stationlistWrap, #stationinfWrap {
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
+            top: -1px;
+            bottom: -1px;
+            right: -1px;
+            left: -1px;
         }
 
         #platformChoserWrap {
@@ -302,11 +258,11 @@
 
         #stationlistWrap .selectLine {
             position: fixed;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            height: 56px;
+            top: -1px;
+            bottom: -1px;
+            right: -1px;
+            left: -1px;
+            height: 58px;
             background: #fff;
             border-bottom: 5px solid #5e5e5e80;
             padding: 7px;
@@ -331,9 +287,8 @@
 
         .stationlistcontent {
             width: 100%;
-            height: calc(100vh - 56px);
             position: absolute;
-            top: 56px;
+            top: 50px;
             left: 0;
             background: #ffffff;
             padding: 20px;
@@ -512,6 +467,66 @@
             width: 32vw;
             height: 100%;
             padding: 5px
+        }
+
+        .StationNumber span {
+            background: #fff;
+            color: #5e5e5e;
+        }
+    </style>
+    <style>
+
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+            }
+
+            .escalator {
+                background: url("Images/escalator@Dark.png") no-repeat transparent;
+            }
+
+            .staircase {
+                background: url("Images/staircase@Dark.png") no-repeat transparent;
+            }
+
+            .elevator {
+                background: url("Images/elevator@Dark.png") no-repeat transparent;
+            }
+
+            body, .card, .icongroup, #stationlistWrap .selectLine, .stationlistcontent, #copyrightPage, #platformChoserWrap, #legendWrap#contactPage, #selectLineButton, #stationinfWrap, #platformChoserWrap {
+                background: #5e5e5e;
+                color: #fff;
+            }
+
+            #inftable > div > div:nth-child(2) {
+                border-color: #fff!important;
+            }
+        }
+
+        body.dark #inftable > div > div:nth-child(2) {
+            border-color: #fff!important;
+        }
+
+        /* Fallback for older browsers or manual mode */
+        body.dark, body.dark .card, body.dark .icongroup {
+            background: #5e5e5e;
+            color: #fff;
+        }
+
+        body.dark .card {
+            background: #5e5e5e;
+        }
+
+        body.dark .escalator {
+            background: url("Images/escalator@Dark.png") no-repeat transparent;
+        }
+
+        body.dark .staircase {
+            background: url("Images/staircase@Dark.png") no-repeat transparent;
+        }
+
+        body.dark .elevator {
+            background: url("Images/elevator@Dark.png") no-repeat transparent;
         }
     </style>
 </head>
@@ -1404,7 +1419,11 @@
                 d.innerHTML = "";
                 d.appendChild(table);
                 //11>2>platform>0>1>0>0
+                window.line=line;
+                window.station=station;
+                window.platformnum=platformnum;
                 let data = json[num[linedata.indexOf(line)][parseInt(station) - 1]].inf[platformnum];
+                window.data=data;
                 let f = data.facilities;
                 window.f = f;
                 for (let i = 0; i < f.length; i++) {
