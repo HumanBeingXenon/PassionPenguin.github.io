@@ -11,6 +11,9 @@
     <link href="/assets/styles/PenguinUI.css" rel="stylesheet">
     <style>
         body.showinf #stationinfWrap {
+            position: fixed;
+            top: 60vw;
+            bottom: 0;
             height: calc(100% - 60vw);
         }
 
@@ -406,7 +409,7 @@
 
         #legendWrap .inf {
             background: url("/assets/Images/Metro/Guangzhou/Exits/information.png") #fff no-repeat;
-            width: 100%;
+            width: 100vw;
             height: 60vw;
             background-size: 100vw 60vw;
             position: absolute;
@@ -422,6 +425,18 @@
             border-width: 0 0 5px 5px;
             font: 700 16px/8px sans-serif;
             padding: 6px;
+        }
+
+        .legend {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1003;
+        }
+
+        .legend .inner, #legendWrap {
+            position: relative;
         }
     </style>
 </head>
@@ -1187,11 +1202,15 @@
     <div class="inner">
         <span data-toggle="collapse" data-target="#stationinfWrap" data-action="close">×</span>
         <div class="innerData"></div>
-        <button class="legendbutton" data-toggle="collapse" data-target="#legendWrap">?</button>
-        <div class="legend collapse" id="legendWrap">
-            <span data-toggle="collapse" data-target="#legendWrap" data-action="close">×</span>
-            <div class="inf"></div>
+        <div class="legend">
+            <div class="collapse" id="legendWrap">
+                <div class="bg-dark p-4">
+                    <span data-toggle="collapse" data-target="#legendWrap" data-action="close">×</span>
+                    <div class="inf"></div>
+                </div>
+            </div>
         </div>
+        <button class="legendbutton" data-toggle="collapse" data-target="#legendWrap">?</button>
     </div>
 </div>
 <div class="card card-body collapse" id="platformChoserWrap">
@@ -1274,7 +1293,7 @@
         $("#stationinfWrap")[0].classList.add("show");
         $.getJSON("/assets/Data/stationinf.json", function (json) {
             $.getJSON("/assets/Data/stationnum.json", function (num) {
-                json=json.inf;
+                json = json.inf;
                 let table = cE("div");
                 table.id = "inftable";
                 let door = [["GF", "4", "6"].includes(line) ? 4 : 6, ["1", "2", "8"].includes(line) ? 5 : ["4", "5", "6"].includes(line) ? 3 : 4];
