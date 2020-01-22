@@ -1,0 +1,7 @@
+{
+  "name": "广州地铁出站指南",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

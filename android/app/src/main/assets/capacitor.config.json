@@ -1,0 +1,8 @@
+{
+  "appId": "com.PassionPenguin.ExitGuide.GZMTR",
+  "appName": "广州地铁出站指南",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">广州地铁出站指南</string>
+    <string name="title_activity_main">广州地铁出站指南</string>
+    <string name="package_name">com.PassionPenguin.ExitGuide.GZMTR</string>
+    <string name="custom_url_scheme">com.PassionPenguin.ExitGuide.GZMTR</string>
+</resources>

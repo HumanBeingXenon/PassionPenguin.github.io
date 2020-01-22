@@ -1,0 +1,27 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "PassionPenguin.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PassionPenguin/PassionPenguin.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PassionPenguin/PassionPenguin.github.io/issues"
+  },
+  "homepage": "https://github.com/PassionPenguin/PassionPenguin.github.io#readme",
+  "dependencies": {
+    "@capacitor/android": "^1.4.0",
+    "@capacitor/core": "1.4.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "1.4.0"
+  }
+}
